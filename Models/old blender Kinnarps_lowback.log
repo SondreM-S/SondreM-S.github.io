@@ -1,0 +1,1619 @@
+Exporter version: 2.93.0, Blender version: 2.93.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  S:\Jobb\Modeller_xeris\exports\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of node:  SketchUp
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  group_0
+		processing begun of material:  Wrapper
+			processing texture Wrapper
+				texture type:  diffuseTexture, mapped using: "ID13"
+		num positions      :  1164
+		num normals        :  1164
+		num tangents       :  0
+		num uvs            :  2328
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  402
+	processing begun of mesh:  group_0.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1219
+		num normals        :  1219
+		num tangents       :  0
+		num uvs            :  2438
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  428
+	processing begun of mesh:  group_0.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  800
+		num normals        :  800
+		num tangents       :  0
+		num uvs            :  1600
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  288
+	processing begun of mesh:  group_0.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  72
+		num normals        :  72
+		num tangents       :  0
+		num uvs            :  144
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  group_1
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  352
+		num normals        :  352
+		num tangents       :  0
+		num uvs            :  704
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  146
+	processing begun of mesh:  group_2
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1004
+		num normals        :  1004
+		num tangents       :  0
+		num uvs            :  2008
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  358
+	processing begun of mesh:  group_3
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1270
+		num normals        :  1270
+		num tangents       :  0
+		num uvs            :  2540
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  438
+	processing begun of mesh:  group_3.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1218
+		num normals        :  1218
+		num tangents       :  0
+		num uvs            :  2436
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  group_3.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  901
+		num normals        :  901
+		num tangents       :  0
+		num uvs            :  1802
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  318
+	processing begun of mesh:  group_3.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  96
+		num normals        :  96
+		num tangents       :  0
+		num uvs            :  192
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  group_4
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1010
+		num normals        :  1010
+		num tangents       :  0
+		num uvs            :  2020
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  350
+	processing begun of mesh:  group_4.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  310
+		num normals        :  310
+		num tangents       :  0
+		num uvs            :  620
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  106
+	processing begun of mesh:  group_5
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  665
+		num normals        :  665
+		num tangents       :  0
+		num uvs            :  1330
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  228
+	processing begun of mesh:  group_6
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1310
+		num normals        :  1310
+		num tangents       :  0
+		num uvs            :  2620
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  442
+	processing begun of mesh:  group_6.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  3235
+		num normals        :  3235
+		num tangents       :  0
+		num uvs            :  6470
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1154
+	processing begun of mesh:  group_6.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  3430
+		num normals        :  3430
+		num tangents       :  0
+		num uvs            :  6860
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1166
+	processing begun of mesh:  group_6.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1346
+		num normals        :  1346
+		num tangents       :  0
+		num uvs            :  2692
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  456
+	processing begun of mesh:  group_6.004
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  group_7
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1566
+		num normals        :  1566
+		num tangents       :  0
+		num uvs            :  3132
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  566
+	processing begun of mesh:  group_7.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1550
+		num normals        :  1550
+		num tangents       :  0
+		num uvs            :  3100
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  562
+	processing begun of mesh:  group_7.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  918
+		num normals        :  918
+		num tangents       :  0
+		num uvs            :  1836
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  322
+	processing begun of mesh:  group_8
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6468
+		num normals        :  6468
+		num tangents       :  0
+		num uvs            :  12936
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2232
+	processing begun of mesh:  group_8.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  158
+		num normals        :  158
+		num tangents       :  0
+		num uvs            :  316
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  66
+	processing begun of mesh:  group_8.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_8.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  group_8.004
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_8.005
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_8.006
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_9
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  914
+		num normals        :  914
+		num tangents       :  0
+		num uvs            :  1828
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  332
+	processing begun of mesh:  group_10
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  606
+		num normals        :  606
+		num tangents       :  0
+		num uvs            :  1212
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  206
+	processing begun of mesh:  group_11
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6048
+		num normals        :  6048
+		num tangents       :  0
+		num uvs            :  12096
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2038
+	processing begun of mesh:  group_11.001
+		processing begun of material:  Wrapper_0
+			processing texture Wrapper_0
+				texture type:  diffuseTexture, mapped using: "ID277"
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  group_11.002
+		processing begun of material:  Wrapper_0
+		registered as also a user of material:  Wrapper_0
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  group_12
+		processing begun of material:  Terrazzo_Light_Blue
+			processing texture Terrazzo_Light_Blue
+				texture type:  diffuseTexture, mapped using: "ID299"
+		num positions      :  8098
+		num normals        :  8098
+		num tangents       :  0
+		num uvs            :  16196
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2720
+	processing begun of mesh:  group_13
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1005
+		num normals        :  1005
+		num tangents       :  0
+		num uvs            :  2010
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  480
+	processing begun of mesh:  group_13.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  240
+		num normals        :  240
+		num tangents       :  0
+		num uvs            :  480
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  group_14
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  474
+		num normals        :  474
+		num tangents       :  0
+		num uvs            :  948
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  158
+	processing begun of mesh:  group_15
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1240
+		num normals        :  1240
+		num tangents       :  0
+		num uvs            :  2480
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  438
+	processing begun of mesh:  group_15.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1212
+		num normals        :  1212
+		num tangents       :  0
+		num uvs            :  2424
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  416
+	processing begun of mesh:  group_15.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  900
+		num normals        :  900
+		num tangents       :  0
+		num uvs            :  1800
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  322
+	processing begun of mesh:  group_15.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  122
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  group_16
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1214
+		num normals        :  1214
+		num tangents       :  0
+		num uvs            :  2428
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  418
+	processing begun of mesh:  group_16.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1250
+		num normals        :  1250
+		num tangents       :  0
+		num uvs            :  2500
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  442
+	processing begun of mesh:  group_16.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  904
+		num normals        :  904
+		num tangents       :  0
+		num uvs            :  1808
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  318
+	processing begun of mesh:  group_16.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  72
+		num normals        :  72
+		num tangents       :  0
+		num uvs            :  144
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  group_17
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  926
+		num normals        :  926
+		num tangents       :  0
+		num uvs            :  1852
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  312
+	processing begun of mesh:  group_18
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1410
+		num normals        :  1410
+		num tangents       :  0
+		num uvs            :  2820
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  496
+	processing begun of mesh:  group_19
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  17974
+		num normals        :  17974
+		num tangents       :  0
+		num uvs            :  35948
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6014
+	processing begun of mesh:  group_20
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1040
+		num normals        :  1040
+		num tangents       :  0
+		num uvs            :  2080
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  348
+	processing begun of mesh:  group_21
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  3076
+		num normals        :  3076
+		num tangents       :  0
+		num uvs            :  6152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1110
+	processing begun of mesh:  group_22
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  80
+		num normals        :  80
+		num tangents       :  0
+		num uvs            :  160
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  group_23
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  group_23.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  5062
+		num normals        :  5062
+		num tangents       :  0
+		num uvs            :  10124
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1700
+	processing begun of mesh:  group_23.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  group_24
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  4422
+		num normals        :  4422
+		num tangents       :  0
+		num uvs            :  8844
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1488
+	processing begun of mesh:  NC-Spak
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1390
+		num normals        :  1390
+		num tangents       :  0
+		num uvs            :  2780
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  490
+	processing begun of mesh:  Back_fabric_terrazzo
+		processing begun of material:  Terrazzo_Light_Blue
+		registered as also a user of material:  Terrazzo_Light_Blue
+		num positions      :  37928
+		num normals        :  37928
+		num tangents       :  0
+		num uvs            :  75856
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12986
+	processing begun of mesh:  ArmRest_Plastic
+		processing begun of material:  Formica_Blue
+			processing texture Formica_Blue
+				texture type:  diffuseTexture, mapped using: "ID511"
+		num positions      :  1476
+		num normals        :  1476
+		num tangents       :  0
+		num uvs            :  2952
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  506
+	processing begun of mesh:  ArmRest_Plastic.001
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  4736
+		num normals        :  4736
+		num tangents       :  0
+		num uvs            :  9472
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1622
+	processing begun of mesh:  Armrest_metal
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  678
+		num normals        :  678
+		num tangents       :  0
+		num uvs            :  1356
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  Armrest_metal.001
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  126
+		num normals        :  126
+		num tangents       :  0
+		num uvs            :  252
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  42
+	processing begun of mesh:  Armrest_metal.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  2172
+		num normals        :  2172
+		num tangents       :  0
+		num uvs            :  4344
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  726
+	processing begun of mesh:  Armrest_metal.003
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.004
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.005
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.006
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.007
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.008
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.009
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.010
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.011
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.012
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.013
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.014
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.015
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  66
+		num normals        :  66
+		num tangents       :  0
+		num uvs            :  132
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  Armrest_metal.016
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.017
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.018
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.019
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.020
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.021
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.022
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.023
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.024
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.025
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.026
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.027
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.028
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.029
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.030
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  group_25
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  2446
+		num normals        :  2446
+		num tangents       :  0
+		num uvs            :  4892
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  850
+	processing begun of mesh:  ArmRest_Plastic.002
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  3568
+		num normals        :  3568
+		num tangents       :  0
+		num uvs            :  7136
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1232
+	processing begun of mesh:  ArmRest_Plastic.003
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  60
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  ArmRest_Plastic.004
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ArmRest_Plastic.005
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  32
+		num normals        :  32
+		num tangents       :  0
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  ArmRest_Plastic.006
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ArmRest_Plastic.007
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  ArmRest_Plastic.008
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  24
+		num normals        :  24
+		num tangents       :  0
+		num uvs            :  48
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Armrest_metal.031
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  2664
+		num normals        :  2664
+		num tangents       :  0
+		num uvs            :  5328
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  892
+	processing begun of mesh:  group_26
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  2473
+		num normals        :  2473
+		num tangents       :  0
+		num uvs            :  4946
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  858
+	processing begun of mesh:  ArmRest_Plastic.009
+		processing begun of material:  Plastic_White
+		num positions      :  918
+		num normals        :  918
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1320
+	processing begun of mesh:  ArmRest_Plastic.010
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  ArmRest_Plastic.011
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  ArmRest_Plastic.012
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ArmRest_Plastic.013
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  ArmRest_Plastic.014
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  ArmRest_Plastic.015
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  4746
+		num normals        :  4746
+		num tangents       :  0
+		num uvs            :  9492
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1604
+	processing begun of mesh:  Armrest_metal.032
+		processing begun of material:  Plastic_White
+		registered as also a user of material:  Plastic_White
+		num positions      :  450
+		num normals        :  450
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  798
+	processing begun of mesh:  Armrest_metal.033
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  132
+		num normals        :  132
+		num tangents       :  0
+		num uvs            :  264
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  44
+	processing begun of mesh:  Armrest_metal.034
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  508
+		num normals        :  508
+		num tangents       :  0
+		num uvs            :  1016
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  184
+	processing begun of mesh:  Armrest_metal.035
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  1850
+		num normals        :  1850
+		num tangents       :  0
+		num uvs            :  3700
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  632
+	processing begun of mesh:  Armrest_metal.036
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  88
+		num normals        :  88
+		num tangents       :  0
+		num uvs            :  176
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  42
+	processing begun of mesh:  Armrest_metal.037
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.038
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  60
+		num normals        :  60
+		num tangents       :  0
+		num uvs            :  120
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  Armrest_metal.039
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.040
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.041
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  48
+		num normals        :  48
+		num tangents       :  0
+		num uvs            :  96
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  16
+	processing begun of mesh:  Armrest_metal.042
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Armrest_metal.043
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.044
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.045
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.046
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.047
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.048
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.049
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.050
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.051
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.052
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.053
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.054
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.055
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.056
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.057
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.058
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  18
+		num normals        :  18
+		num tangents       :  0
+		num uvs            :  36
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  Armrest_metal.059
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.060
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.061
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.062
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.063
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  24
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_metal.064
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.065
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.066
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.067
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_metal.068
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  ArmRest_Plastic.016
+		processing begun of material:  Formica_Blue
+		registered as also a user of material:  Formica_Blue
+		num positions      :  1444
+		num normals        :  1444
+		num tangents       :  0
+		num uvs            :  2888
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  492
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  group_0
+	writing mesh:  group_0.001
+	writing mesh:  group_0.002
+	writing mesh:  group_0.003
+	writing mesh:  group_1
+	writing mesh:  group_2
+	writing mesh:  group_3
+	writing mesh:  group_3.001
+	writing mesh:  group_3.002
+	writing mesh:  group_3.003
+	writing mesh:  group_4
+	writing mesh:  group_4.001
+	writing mesh:  group_5
+	writing mesh:  group_6
+	writing mesh:  group_6.001
+	writing mesh:  group_6.002
+	writing mesh:  group_6.003
+	writing mesh:  group_6.004
+	writing mesh:  group_7
+	writing mesh:  group_7.001
+	writing mesh:  group_7.002
+	writing mesh:  group_8
+	writing mesh:  group_8.001
+	writing mesh:  group_8.002
+	writing mesh:  group_8.003
+	writing mesh:  group_8.004
+	writing mesh:  group_8.005
+	writing mesh:  group_8.006
+	writing mesh:  group_9
+	writing mesh:  group_10
+	writing mesh:  group_11
+	writing mesh:  group_11.001
+	writing mesh:  group_11.002
+	writing mesh:  group_12
+	writing mesh:  group_13
+	writing mesh:  group_13.001
+	writing mesh:  group_14
+	writing mesh:  group_15
+	writing mesh:  group_15.001
+	writing mesh:  group_15.002
+	writing mesh:  group_15.003
+	writing mesh:  group_16
+	writing mesh:  group_16.001
+	writing mesh:  group_16.002
+	writing mesh:  group_16.003
+	writing mesh:  group_17
+	writing mesh:  group_18
+	writing mesh:  group_19
+	writing mesh:  group_20
+	writing mesh:  group_21
+	writing mesh:  group_22
+	writing mesh:  group_23
+	writing mesh:  group_23.001
+	writing mesh:  group_23.002
+	writing mesh:  group_24
+	writing mesh:  NC-Spak
+	writing mesh:  Back_fabric_terrazzo
+	writing mesh:  ArmRest_Plastic
+	writing mesh:  ArmRest_Plastic.001
+	writing mesh:  Armrest_metal
+	writing mesh:  Armrest_metal.001
+	writing mesh:  Armrest_metal.002
+	writing mesh:  Armrest_metal.003
+	writing mesh:  Armrest_metal.004
+	writing mesh:  Armrest_metal.005
+	writing mesh:  Armrest_metal.006
+	writing mesh:  Armrest_metal.007
+	writing mesh:  Armrest_metal.008
+	writing mesh:  Armrest_metal.009
+	writing mesh:  Armrest_metal.010
+	writing mesh:  Armrest_metal.011
+	writing mesh:  Armrest_metal.012
+	writing mesh:  Armrest_metal.013
+	writing mesh:  Armrest_metal.014
+	writing mesh:  Armrest_metal.015
+	writing mesh:  Armrest_metal.016
+	writing mesh:  Armrest_metal.017
+	writing mesh:  Armrest_metal.018
+	writing mesh:  Armrest_metal.019
+	writing mesh:  Armrest_metal.020
+	writing mesh:  Armrest_metal.021
+	writing mesh:  Armrest_metal.022
+	writing mesh:  Armrest_metal.023
+	writing mesh:  Armrest_metal.024
+	writing mesh:  Armrest_metal.025
+	writing mesh:  Armrest_metal.026
+	writing mesh:  Armrest_metal.027
+	writing mesh:  Armrest_metal.028
+	writing mesh:  Armrest_metal.029
+	writing mesh:  Armrest_metal.030
+	writing mesh:  group_25
+	writing mesh:  ArmRest_Plastic.002
+	writing mesh:  ArmRest_Plastic.003
+	writing mesh:  ArmRest_Plastic.004
+	writing mesh:  ArmRest_Plastic.005
+	writing mesh:  ArmRest_Plastic.006
+	writing mesh:  ArmRest_Plastic.007
+	writing mesh:  ArmRest_Plastic.008
+	writing mesh:  Armrest_metal.031
+	writing mesh:  group_26
+	writing mesh:  ArmRest_Plastic.009
+	writing mesh:  ArmRest_Plastic.010
+	writing mesh:  ArmRest_Plastic.011
+	writing mesh:  ArmRest_Plastic.012
+	writing mesh:  ArmRest_Plastic.013
+	writing mesh:  ArmRest_Plastic.014
+	writing mesh:  ArmRest_Plastic.015
+	writing mesh:  Armrest_metal.032
+	writing mesh:  Armrest_metal.033
+	writing mesh:  Armrest_metal.034
+	writing mesh:  Armrest_metal.035
+	writing mesh:  Armrest_metal.036
+	writing mesh:  Armrest_metal.037
+	writing mesh:  Armrest_metal.038
+	writing mesh:  Armrest_metal.039
+	writing mesh:  Armrest_metal.040
+	writing mesh:  Armrest_metal.041
+	writing mesh:  Armrest_metal.042
+	writing mesh:  Armrest_metal.043
+	writing mesh:  Armrest_metal.044
+	writing mesh:  Armrest_metal.045
+	writing mesh:  Armrest_metal.046
+	writing mesh:  Armrest_metal.047
+	writing mesh:  Armrest_metal.048
+	writing mesh:  Armrest_metal.049
+	writing mesh:  Armrest_metal.050
+	writing mesh:  Armrest_metal.051
+	writing mesh:  Armrest_metal.052
+	writing mesh:  Armrest_metal.053
+	writing mesh:  Armrest_metal.054
+	writing mesh:  Armrest_metal.055
+	writing mesh:  Armrest_metal.056
+	writing mesh:  Armrest_metal.057
+	writing mesh:  Armrest_metal.058
+	writing mesh:  Armrest_metal.059
+	writing mesh:  Armrest_metal.060
+	writing mesh:  Armrest_metal.061
+	writing mesh:  Armrest_metal.062
+	writing mesh:  Armrest_metal.063
+	writing mesh:  Armrest_metal.064
+	writing mesh:  Armrest_metal.065
+	writing mesh:  Armrest_metal.066
+	writing mesh:  Armrest_metal.067
+	writing mesh:  Armrest_metal.068
+	writing mesh:  ArmRest_Plastic.016
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 10.3641 secs

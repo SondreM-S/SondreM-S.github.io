@@ -1,0 +1,1616 @@
+Exporter version: 2.93.0, Blender version: 2.93.0
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  S:\Jobb\xeris\variant-3d-viewer\Babylon\Models\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of node:  SketchUp
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  Wheels_Plastic_False
+		processing begun of material:  Plastic_Black
+		num positions      :  276
+		num normals        :  276
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  402
+	processing begun of mesh:  Wheels_Plastic_False.001
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  347
+		num normals        :  347
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  428
+	processing begun of mesh:  Wheels_Plastic_False.002
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  194
+		num normals        :  194
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  288
+	processing begun of mesh:  Wheels_Plastic_False.003
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  72
+		num normals        :  72
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  LiftInner_Metal_False
+		processing begun of material:  Steel_Polished
+		num positions      :  118
+		num normals        :  118
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  146
+	processing begun of mesh:  LiftOuter_Metal_False
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  244
+		num normals        :  244
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  358
+	processing begun of mesh:  Wheels_Plastic_False.004
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  356
+		num normals        :  356
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  438
+	processing begun of mesh:  Wheels_Plastic_False.005
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  280
+		num normals        :  280
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  Wheels_Plastic_False.006
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  212
+		num normals        :  212
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  318
+	processing begun of mesh:  Wheels_Plastic_False.007
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  80
+		num normals        :  80
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  FrameLower_Plastic_False
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  198
+		num normals        :  198
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  350
+	processing begun of mesh:  FrameLower_Plastic_False.001
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  82
+		num normals        :  82
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  106
+	processing begun of mesh:  FrameLower_Plastic_False.002
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  175
+		num normals        :  175
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  228
+	processing begun of mesh:  Headrest_Metal_True
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  258
+		num normals        :  258
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  442
+	processing begun of mesh:  Headrest_Metal_True.001
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  721
+		num normals        :  721
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1154
+	processing begun of mesh:  Headrest_Metal_True.002
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  756
+		num normals        :  756
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1166
+	processing begun of mesh:  Headrest_Metal_True.003
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  276
+		num normals        :  276
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  456
+	processing begun of mesh:  Headrest_Metal_True.004
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Wheels_Plastic_False.008
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  584
+		num normals        :  584
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  566
+	processing begun of mesh:  Wheels_Plastic_False.009
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  564
+		num normals        :  564
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  562
+	processing begun of mesh:  Wheels_Plastic_False.010
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  214
+		num normals        :  214
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  322
+	processing begun of mesh:  FrameLower_Plastic_False.003
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  1495
+		num normals        :  1495
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2232
+	processing begun of mesh:  FrameLower_Plastic_False.004
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  64
+		num normals        :  64
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  66
+	processing begun of mesh:  FrameLower_Plastic_False.005
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  FrameLower_Plastic_False.006
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  FrameLower_Plastic_False.007
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  FrameLower_Plastic_False.008
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  FrameLower_Plastic_False.009
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  FrameLower_Plastic_False.010
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  222
+		num normals        :  222
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  332
+	processing begun of mesh:  Headrest__False
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  130
+		num normals        :  130
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  206
+	processing begun of mesh:  Headrest_Fabric_True
+		processing begun of material:  Capture_05
+			processing texture Capture_05
+				texture type:  diffuseTexture, mapped using: "ID208"
+		num positions      :  6056
+		num normals        :  6056
+		num tangents       :  0
+		num uvs            :  12112
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2038
+	processing begun of mesh:  Headrest_Fabric_True.001
+		processing begun of material:  Wrapper
+			processing texture Wrapper
+				texture type:  diffuseTexture, mapped using: "ID221"
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Headrest_Fabric_True.002
+		processing begun of material:  Wrapper
+		registered as also a user of material:  Wrapper
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  12
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Seat_Fabric_False
+		processing begun of material:  Capture_05
+		registered as also a user of material:  Capture_05
+		num positions      :  8118
+		num normals        :  8118
+		num tangents       :  0
+		num uvs            :  16236
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2720
+	processing begun of mesh:  FrameLower_Plastic_False.011
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  573
+		num normals        :  573
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  480
+	processing begun of mesh:  FrameLower_Plastic_False.012
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  96
+		num normals        :  96
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  96
+	processing begun of mesh:  FrameLower_Plastic_False.013
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  128
+		num normals        :  128
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  158
+	processing begun of mesh:  Wheels_Plastic_False.011
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  356
+		num normals        :  356
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  438
+	processing begun of mesh:  Wheels_Plastic_False.012
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  282
+		num normals        :  282
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  416
+	processing begun of mesh:  Wheels_Plastic_False.013
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  214
+		num normals        :  214
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  322
+	processing begun of mesh:  Wheels_Plastic_False.014
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  61
+		num normals        :  61
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  48
+	processing begun of mesh:  Wheels_Plastic_False.015
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  284
+		num normals        :  284
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  418
+	processing begun of mesh:  Wheels_Plastic_False.016
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  344
+		num normals        :  344
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  442
+	processing begun of mesh:  Wheels_Plastic_False.017
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  212
+		num normals        :  212
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  318
+	processing begun of mesh:  Wheels_Plastic_False.018
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  72
+		num normals        :  72
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  46
+	processing begun of mesh:  FrameLower_Plastic_False.014
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  230
+		num normals        :  230
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  312
+	processing begun of mesh:  FrameLower_Plastic_False.015
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  378
+		num normals        :  378
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  496
+	processing begun of mesh:  Footbase_Metal_False
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  3452
+		num normals        :  3452
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6014
+	processing begun of mesh:  FrameLower_Plastic_False.016
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  210
+		num normals        :  210
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  348
+	processing begun of mesh:  FrameLower_Plastic_False.017
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  688
+		num normals        :  688
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1110
+	processing begun of mesh:  __False
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  FrameLower_Plastic_False.018
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  FrameLower_Plastic_False.019
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  1220
+		num normals        :  1220
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1700
+	processing begun of mesh:  FrameLower_Plastic_False.020
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  FrameLower_Plastic_False.021
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  935
+		num normals        :  935
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1488
+	processing begun of mesh:  Headrest_Metal_True.005
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  306
+		num normals        :  306
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  490
+	processing begun of mesh:  Back_Fabric_False
+		processing begun of material:  Capture_05
+		registered as also a user of material:  Capture_05
+		num positions      :  38278
+		num normals        :  38278
+		num tangents       :  0
+		num uvs            :  76556
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12986
+	processing begun of mesh:  Armrest_Plastic_True
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  288
+		num normals        :  288
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  506
+	processing begun of mesh:  Armrest_Plastic_True.001
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  1000
+		num normals        :  1000
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1622
+	processing begun of mesh:  Armrest_Metal_True
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  248
+		num normals        :  248
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  238
+	processing begun of mesh:  Armrest_Metal_True.001
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  34
+		num normals        :  34
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  42
+	processing begun of mesh:  Armrest_Metal_True.002
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  474
+		num normals        :  474
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  726
+	processing begun of mesh:  Armrest_Metal_True.003
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.004
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.005
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.006
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.007
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.008
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.009
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.010
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.011
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.012
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.013
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.014
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.015
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  26
+		num normals        :  26
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  22
+	processing begun of mesh:  Armrest_Metal_True.016
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.017
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.018
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.019
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.020
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.021
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.022
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.023
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.024
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.025
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.026
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.027
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.028
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.029
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.030
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Plastic_True.002
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  534
+		num normals        :  534
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  850
+	processing begun of mesh:  Armrest_Plastic_True.003
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  868
+		num normals        :  868
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1232
+	processing begun of mesh:  Armrest_Plastic_True.004
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Armrest_Plastic_True.005
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Plastic_True.006
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  14
+		num normals        :  14
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Armrest_Plastic_True.007
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Plastic_True.008
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  Armrest_Plastic_True.009
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Armrest_Metal_True.031
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  562
+		num normals        :  562
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  892
+	processing begun of mesh:  Armrest_Plastic_True.010
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  591
+		num normals        :  591
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  858
+	processing begun of mesh:  Armrest_Plastic_True.011
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  918
+		num normals        :  918
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1320
+	processing begun of mesh:  Armrest_Plastic_True.012
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Plastic_True.013
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  18
+	processing begun of mesh:  Armrest_Plastic_True.014
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Plastic_True.015
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Plastic_True.016
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Plastic_True.017
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  994
+		num normals        :  994
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1604
+	processing begun of mesh:  Armrest_Metal_True.032
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  450
+		num normals        :  450
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  798
+	processing begun of mesh:  Armrest_Metal_True.033
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  40
+		num normals        :  40
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  44
+	processing begun of mesh:  Armrest_Metal_True.034
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  209
+		num normals        :  209
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  184
+	processing begun of mesh:  Armrest_Metal_True.035
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  406
+		num normals        :  406
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  632
+	processing begun of mesh:  Armrest_Metal_True.036
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  46
+		num normals        :  46
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  42
+	processing begun of mesh:  Armrest_Metal_True.037
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.038
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  30
+		num normals        :  30
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  28
+	processing begun of mesh:  Armrest_Metal_True.039
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.040
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.041
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  20
+		num normals        :  20
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  16
+	processing begun of mesh:  Armrest_Metal_True.042
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  8
+	processing begun of mesh:  Armrest_Metal_True.043
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.044
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.045
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.046
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.047
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  12
+		num normals        :  12
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.048
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.049
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.050
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.051
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.052
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.053
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.054
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.055
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.056
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.057
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.058
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  10
+		num normals        :  10
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  6
+	processing begun of mesh:  Armrest_Metal_True.059
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.060
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.061
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.062
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.063
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  8
+		num normals        :  8
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4
+	processing begun of mesh:  Armrest_Metal_True.064
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.065
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.066
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.067
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Metal_True.068
+		processing begun of material:  Steel_Polished
+		registered as also a user of material:  Steel_Polished
+		num positions      :  6
+		num normals        :  6
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Armrest_Plastic_True.018
+		processing begun of material:  Plastic_Black
+		registered as also a user of material:  Plastic_Black
+		num positions      :  282
+		num normals        :  282
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  492
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  Wheels_Plastic_False
+	writing mesh:  Wheels_Plastic_False.001
+	writing mesh:  Wheels_Plastic_False.002
+	writing mesh:  Wheels_Plastic_False.003
+	writing mesh:  LiftInner_Metal_False
+	writing mesh:  LiftOuter_Metal_False
+	writing mesh:  Wheels_Plastic_False.004
+	writing mesh:  Wheels_Plastic_False.005
+	writing mesh:  Wheels_Plastic_False.006
+	writing mesh:  Wheels_Plastic_False.007
+	writing mesh:  FrameLower_Plastic_False
+	writing mesh:  FrameLower_Plastic_False.001
+	writing mesh:  FrameLower_Plastic_False.002
+	writing mesh:  Headrest_Metal_True
+	writing mesh:  Headrest_Metal_True.001
+	writing mesh:  Headrest_Metal_True.002
+	writing mesh:  Headrest_Metal_True.003
+	writing mesh:  Headrest_Metal_True.004
+	writing mesh:  Wheels_Plastic_False.008
+	writing mesh:  Wheels_Plastic_False.009
+	writing mesh:  Wheels_Plastic_False.010
+	writing mesh:  FrameLower_Plastic_False.003
+	writing mesh:  FrameLower_Plastic_False.004
+	writing mesh:  FrameLower_Plastic_False.005
+	writing mesh:  FrameLower_Plastic_False.006
+	writing mesh:  FrameLower_Plastic_False.007
+	writing mesh:  FrameLower_Plastic_False.008
+	writing mesh:  FrameLower_Plastic_False.009
+	writing mesh:  FrameLower_Plastic_False.010
+	writing mesh:  Headrest__False
+	writing mesh:  Headrest_Fabric_True
+	writing mesh:  Headrest_Fabric_True.001
+	writing mesh:  Headrest_Fabric_True.002
+	writing mesh:  Seat_Fabric_False
+	writing mesh:  FrameLower_Plastic_False.011
+	writing mesh:  FrameLower_Plastic_False.012
+	writing mesh:  FrameLower_Plastic_False.013
+	writing mesh:  Wheels_Plastic_False.011
+	writing mesh:  Wheels_Plastic_False.012
+	writing mesh:  Wheels_Plastic_False.013
+	writing mesh:  Wheels_Plastic_False.014
+	writing mesh:  Wheels_Plastic_False.015
+	writing mesh:  Wheels_Plastic_False.016
+	writing mesh:  Wheels_Plastic_False.017
+	writing mesh:  Wheels_Plastic_False.018
+	writing mesh:  FrameLower_Plastic_False.014
+	writing mesh:  FrameLower_Plastic_False.015
+	writing mesh:  Footbase_Metal_False
+	writing mesh:  FrameLower_Plastic_False.016
+	writing mesh:  FrameLower_Plastic_False.017
+	writing mesh:  __False
+	writing mesh:  FrameLower_Plastic_False.018
+	writing mesh:  FrameLower_Plastic_False.019
+	writing mesh:  FrameLower_Plastic_False.020
+	writing mesh:  FrameLower_Plastic_False.021
+	writing mesh:  Headrest_Metal_True.005
+	writing mesh:  Back_Fabric_False
+	writing mesh:  Armrest_Plastic_True
+	writing mesh:  Armrest_Plastic_True.001
+	writing mesh:  Armrest_Metal_True
+	writing mesh:  Armrest_Metal_True.001
+	writing mesh:  Armrest_Metal_True.002
+	writing mesh:  Armrest_Metal_True.003
+	writing mesh:  Armrest_Metal_True.004
+	writing mesh:  Armrest_Metal_True.005
+	writing mesh:  Armrest_Metal_True.006
+	writing mesh:  Armrest_Metal_True.007
+	writing mesh:  Armrest_Metal_True.008
+	writing mesh:  Armrest_Metal_True.009
+	writing mesh:  Armrest_Metal_True.010
+	writing mesh:  Armrest_Metal_True.011
+	writing mesh:  Armrest_Metal_True.012
+	writing mesh:  Armrest_Metal_True.013
+	writing mesh:  Armrest_Metal_True.014
+	writing mesh:  Armrest_Metal_True.015
+	writing mesh:  Armrest_Metal_True.016
+	writing mesh:  Armrest_Metal_True.017
+	writing mesh:  Armrest_Metal_True.018
+	writing mesh:  Armrest_Metal_True.019
+	writing mesh:  Armrest_Metal_True.020
+	writing mesh:  Armrest_Metal_True.021
+	writing mesh:  Armrest_Metal_True.022
+	writing mesh:  Armrest_Metal_True.023
+	writing mesh:  Armrest_Metal_True.024
+	writing mesh:  Armrest_Metal_True.025
+	writing mesh:  Armrest_Metal_True.026
+	writing mesh:  Armrest_Metal_True.027
+	writing mesh:  Armrest_Metal_True.028
+	writing mesh:  Armrest_Metal_True.029
+	writing mesh:  Armrest_Metal_True.030
+	writing mesh:  Armrest_Plastic_True.002
+	writing mesh:  Armrest_Plastic_True.003
+	writing mesh:  Armrest_Plastic_True.004
+	writing mesh:  Armrest_Plastic_True.005
+	writing mesh:  Armrest_Plastic_True.006
+	writing mesh:  Armrest_Plastic_True.007
+	writing mesh:  Armrest_Plastic_True.008
+	writing mesh:  Armrest_Plastic_True.009
+	writing mesh:  Armrest_Metal_True.031
+	writing mesh:  Armrest_Plastic_True.010
+	writing mesh:  Armrest_Plastic_True.011
+	writing mesh:  Armrest_Plastic_True.012
+	writing mesh:  Armrest_Plastic_True.013
+	writing mesh:  Armrest_Plastic_True.014
+	writing mesh:  Armrest_Plastic_True.015
+	writing mesh:  Armrest_Plastic_True.016
+	writing mesh:  Armrest_Plastic_True.017
+	writing mesh:  Armrest_Metal_True.032
+	writing mesh:  Armrest_Metal_True.033
+	writing mesh:  Armrest_Metal_True.034
+	writing mesh:  Armrest_Metal_True.035
+	writing mesh:  Armrest_Metal_True.036
+	writing mesh:  Armrest_Metal_True.037
+	writing mesh:  Armrest_Metal_True.038
+	writing mesh:  Armrest_Metal_True.039
+	writing mesh:  Armrest_Metal_True.040
+	writing mesh:  Armrest_Metal_True.041
+	writing mesh:  Armrest_Metal_True.042
+	writing mesh:  Armrest_Metal_True.043
+	writing mesh:  Armrest_Metal_True.044
+	writing mesh:  Armrest_Metal_True.045
+	writing mesh:  Armrest_Metal_True.046
+	writing mesh:  Armrest_Metal_True.047
+	writing mesh:  Armrest_Metal_True.048
+	writing mesh:  Armrest_Metal_True.049
+	writing mesh:  Armrest_Metal_True.050
+	writing mesh:  Armrest_Metal_True.051
+	writing mesh:  Armrest_Metal_True.052
+	writing mesh:  Armrest_Metal_True.053
+	writing mesh:  Armrest_Metal_True.054
+	writing mesh:  Armrest_Metal_True.055
+	writing mesh:  Armrest_Metal_True.056
+	writing mesh:  Armrest_Metal_True.057
+	writing mesh:  Armrest_Metal_True.058
+	writing mesh:  Armrest_Metal_True.059
+	writing mesh:  Armrest_Metal_True.060
+	writing mesh:  Armrest_Metal_True.061
+	writing mesh:  Armrest_Metal_True.062
+	writing mesh:  Armrest_Metal_True.063
+	writing mesh:  Armrest_Metal_True.064
+	writing mesh:  Armrest_Metal_True.065
+	writing mesh:  Armrest_Metal_True.066
+	writing mesh:  Armrest_Metal_True.067
+	writing mesh:  Armrest_Metal_True.068
+	writing mesh:  Armrest_Plastic_True.018
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 6.6795 secs
