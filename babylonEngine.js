@@ -194,7 +194,7 @@ window.addEventListener("DOMContentLoaded", function() {
         var subCSG = []; // Array for storing CSGs from each array mesh. These will be combined to a single model
         var meshCSG = null;
         // Load in 3D model (name, folder, .babylon file,)
-        BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon",
+        BABYLON.SceneLoader.ImportMesh("","models/","Kinnarps_lowback.babylon.json",
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
             newMeshes.filter(checkNull).forEach(function(mesh){
@@ -222,6 +222,7 @@ window.addEventListener("DOMContentLoaded", function() {
                     if(mesh.name.substring(0,5) == "metal"){
                         // Metal found, add shiny metal effect, else remove all shine
                         mesh.material.metallic = 5;
+                        mesh.material.ref
                         mesh.material.roughness = 0.4;
                     }else if(mesh.material.name.substring(0,5) == "Captu"){
                         // Fabric found
