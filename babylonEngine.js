@@ -194,7 +194,7 @@ window.addEventListener("DOMContentLoaded", function() {
         var subCSG = []; // Array for storing CSGs from each array mesh. These will be combined to a single model
         var meshCSG = null;
         // Load in 3D model (name, folder, .babylon file,)
-        BABYLON.SceneLoader.ImportMesh("","models/","Kinnarps_lowback.babylon",
+        BABYLON.SceneLoader.ImportMesh("","tree/main/Models/","Kinnarps_lowback.babylon",
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
             newMeshes.filter(checkNull).forEach(function(mesh){
