@@ -188,7 +188,7 @@ window.addEventListener("DOMContentLoaded", function() {
         };
 
         this.takeScreenshot = function(){ // Take screenshot of current babylonjs canvas view and make .jpg to download
-            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, 1500,
+            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, {width: 1500, height: 1500, precision: 1},
                 undefined, // SuccessCalback
                 'image/jpg', // MimeType
                 8, // Samples
