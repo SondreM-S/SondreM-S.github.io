@@ -2,7 +2,8 @@ window.addEventListener("DOMContentLoaded", function() {
     var canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
     var engine = new BABYLON.Engine(canvas, true);
 
-    var meshCollect = [];
+    var meshCollect = []; // List of mesh components
+    var toggleGroups = []; // List of list with hideable components
 
     var createScene = function () {
         var scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
@@ -180,6 +181,26 @@ window.addEventListener("DOMContentLoaded", function() {
 
         };
 
+        this.toggleComponent1 = function(meshGroup) { // Toggle the given meshGroup (component)
+            meshGroup.filter(checkNull).forEach(function(mesh){
+                mesh.setEnabled(mesh.isEnabled() ? false : true); 
+            })
+        };
+
+        this.takeScreenshot = function(){ // Take screenshot of current babylonjs canvas view and make .jpg to download
+            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, 1500,
+                undefined, // SuccessCalback
+                'image/jpg', // MimeType
+                8, // Samples
+                false, // AntiAliasing
+                'screenshot.jpg' // Filename and type
+                )
+        }
+
+        this.exportModel = function(){ // Export and download current mesh
+            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, 2500);
+        }
+
         function checkNull(mesh) {
             return mesh.material != null;
         }
@@ -193,6 +214,7 @@ window.addEventListener("DOMContentLoaded", function() {
         var subMesh = []; // Array of meshes in the model (broken up components) 
         var subCSG = []; // Array for storing CSGs from each array mesh. These will be combined to a single model
         var meshCSG = null;
+        var arrL;
         // Load in 3D model (name, folder, .babylon file,)
         BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon.json",
         scene,
@@ -222,7 +244,7 @@ window.addEventListener("DOMContentLoaded", function() {
                     if(mesh.name.substring(0,5) == "metal"){
                         // Metal found, add shiny metal effect, else remove all shine
                         mesh.material.metallic = 5;
-                        mesh.material.ref
+                        // mesh.material.ref
                         mesh.material.roughness = 0.4;
                     }else if(mesh.material.name.substring(0,5) == "Captu"){
                         // Fabric found
@@ -238,8 +260,49 @@ window.addEventListener("DOMContentLoaded", function() {
                         }
                     }
                 }
+
+                // Generate buttons for toggling visibility of components based on group names
+                // Add component totoggleable list list
+                toggleable = mesh.name.split("_")[2].split(".")[0];
+                if (toggleable=="True"){
+                    // Either create list to append to toggleGroup list or append to existing list
+                    gName = mesh.name.split("_")[0]; //Group (component) name, eg. Armrest, tablePlate etc...
+                    // Check first component of all list in toggleGroups, if no match is found, create new list and append to toggleGroups
+                    let found = 0; // Boolean to see if mesh group already added or not
+                    toggleGroups.forEach(function(meshGroup){
+                        // For each meshGroup, check first element name and compare with mesh element name
+                        listGName = meshGroup[0].name.split("_")[0]; // First element name
+                        if (listGName == gName){
+                            found = 1; // Match found
+                            meshGroup.push(mesh);
+                        }
+                    })
+                    if (found == 0){ // No group found
+                        tempArr = [];
+                        tempArr.push(mesh);
+                        toggleGroups.push(tempArr);
+                    }
+
+                }else if(toggleable=="False"){
+                    // Component not toggleable, do nothing
+                }else{
+                    // Found error in Sketchup export, no visibility toggle found
+                }
+            })
+            // Use toggleGroups to generate buttons
+            toggleGroups.forEach(function(meshGroup){
+                //Generate HTML button
+                let btn = document.createElement("button");
+                btn.innerHTML = meshGroup[0].name.split("_")[0];
+                btn.classList.add("button");
+                btn.onclick = function(){
+                    toggleComponent1(meshGroup);
+                }
+                var divComp = document.getElementById("component-control"); // Pointer to correct div 
+                divComp.appendChild(btn);
             })
         });
+        
 
         return scene;
     }

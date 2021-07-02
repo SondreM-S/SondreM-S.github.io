@@ -1,0 +1,60 @@
+                    /* follow camera (always keeps the object in frame. Think TPS games)
+                    var camera = new BABYLON.FollowCamera("followCam", BABYLON.Vector3.Zero(), scene);
+                    camera.lockedTarget = box;
+                    camera.radius = 50;
+                    camera.heightOffset = 0;*/
+
+                    /*  Free floating movement
+                    var camera = new BABYLON.FreeCamera("camera1",
+                    //    new BABYLON.Vector3(0,0,-10), scene); // Sets up freefloat camera in the selected scene, moved 10 units back, (y-axis is up)
+
+                    camera.setTarget(BABYLON.Vector3.Zero()); // Sets camera to look at Zero (= (0,0,0))
+                    
+                    
+                    camera.keysUp.push(87); // ASCII scan code for "W"
+                    camera.keysDown.push(83); // "S"
+                    camera.keysLeft.push(65); // "A"
+                    camera.keysRight.push(68); // "D"*/
+
+                    /* // Pointlight setup
+                    var light = new BABYLON.PointLight("pointLight", new BABYLON.Vector3(0,100,10), scene); // Add light, 10 height
+                    light.diffuse = new BABYLON.Color3(1,0,0); // Make light red
+
+                    // Setup action manager which looks for user actions like pushed spacebar and runs chosen function. Eg. Turn light on or off
+                    scene.actionManager = new BABYLON.ActionManager(scene);
+                    scene.actionManager.registerAction(
+                        new BABYLON.ExecuteCodeAction({trigger: BABYLON.ActionManager.OnKeyUpTrigger, parameter: " "},
+                        function(){
+                            light.setEnabled(!light.isEnabled()); // Set to other boolean than current for light state (on/off)
+                    }));*/
+
+
+
+                    /*
+                    var light = new BABYLON.SpotLight("spotLight",
+                    new BABYLON.Vector3(0,10,0), // Light position
+                    new BABYLON.Vector3(0,-1,0), // Light direction
+                    BABYLON.Tools.ToRadians(45), // angle of cone
+                    0.1, // Length of light cone
+                    scene) */
+		    /*For moving light sources every loop (In engine loop)
+                    var light = scene.getLightByName("spotLight"); // Find scene light by given name
+                    light.position.y -= 0.01;*/
+
+                    /*  // Make box fade over time
+                    var material = scene.getMeshByName("Box").material; // Refferencing the material of box in scene
+                    material.alpha -= 0.01;
+                    if(material.alpha <= 0) material.alpha = 1;*/
+
+                    /* For adding materials to box or other
+                    var material = new BABYLON.StandardMaterial("material1", scene); // Add material to scene
+                    //material.wireframe = true;
+                    //material.diffuseColor = BABYLON.Color3.Blue(); // Color of light on object (Turns white box blue)
+                    //material.emissiveColor = BABYLON.Color3.Red(); // Color of self emissive light from object (Think glowstick effect)
+                    //material.specularColor = BABYLON.Color3.Red(); // Color of reflected light (Makes a reflected lightbulb look red even if the cube is blue)
+                    //material.alpha = 0.9; //Makes object more or less see through
+                    // Add texture
+                    material.diffuseTexture = new BABYLON.Texture("Xeris_backg.jpg", scene);
+                    // material.bumpTexture = new BABYLON.Texture("bump_texture.jpg", scene); // Adds fake depth in jpg, (also called normal maps)
+                    */
+

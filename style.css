@@ -5,7 +5,7 @@
 }
 #canvas1{
     float: left;
-    height: 95vh;
+    height: 98vh;
     width: 50%;
 }
 .canvas2{
@@ -20,6 +20,7 @@
     min-width: 190px;
     color: black;
     padding: 15px 32px;
+    margin: 2px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -31,7 +32,8 @@ input[type=button]{
     border-radius: 1px;
     min-width: 190px;
     color: black;
-    padding: 15px 32px;
+    /* padding: 15px 32px;
+    margin: 2px 2px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;

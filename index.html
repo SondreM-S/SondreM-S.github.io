@@ -9,38 +9,50 @@
 
     <body class="clearfix">
         <script src="babylonEngine.js"></script> <!--Javascript folder containing the babylonjs scene and engine.-->
-        <div class="canvas2"> <!--div containing the control panel and buttons used for manipulating the babylon code-->
-            <h2>Control</h2>
-            <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
-            <input type="button" onClick="changeFabric()" value="Change Textures"> -->
-            <div class="dropdown">
-                <button class="button">
-                    Change Fabric
-                </button>
-                  
-                <div class="dropdown-content">
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_01.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_01.jpg" 
-                        width="40" height="40">Capture_01</a>
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_04.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_04.jpg" 
-                        width="40" height="40">Capture_04</a>
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_05.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_05.jpg"
-                        width="40" height="40">Capture_05</a>
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_09.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_09.jpg"
-                        width="40" height="40">Capture_09</a>
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_13.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_13.jpg"
-                        width="40" height="40">Capture_13</a>
-                    <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_32.jpg")'>
-                        <img src= "Models\Materials\Fabrics\Capture_32.jpg"
-                        width="40" height="40">Capture_32</a>
+        <div class="canvas2" id = "control-panel"> <!--div containing the control panel and buttons used for manipulating the babylon code-->
+            <div class="Materials" id = "materials">
+                <h2>Material Control</h2>
+                <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
+                <input type="button" onClick="changeFabric()" value="Change Textures"> -->
+                <div class="dropdown">
+                    <button class="button">
+                        Change Fabric
+                    </button>
+                    
+                    <div class="dropdown-content">
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_01.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_01.jpg" 
+                            width="40" height="40">Capture_01</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_04.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_04.jpg" 
+                            width="40" height="40">Capture_04</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_05.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_05.jpg"
+                            width="40" height="40">Capture_05</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_09.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_09.jpg"
+                            width="40" height="40">Capture_09</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_13.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_13.jpg"
+                            width="40" height="40">Capture_13</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_32.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_32.jpg"
+                            width="40" height="40">Capture_32</a>
+                    </div>
                 </div>
             </div>
-            <button class="button" onClick="toggleComponent(0)">Toggle Armrest</button><!--Toggleable components will be indexed in Sketchup-->
-            <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button>
+            <div class="component-control" id = "component-control">
+                <h2>Component Control</h2>
+                <!-- <button class="button" onClick="toggleComponent(0)">Toggle Armrest</button>Toggleable components will be indexed in Sketchup -->
+                <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
+            </div>
+            <div class="export-control" id = "export-control">
+                <h2>Exports</h2>
+                <button class="button" onClick="takeScreenshot()">Take Screenshot</button> <!--Take a screenshot and export a .jpg download-->
+                <!--<button class="button" onClick="takeScreenshot()">Export Model</button>--> <!--Download .obj of mesh-->
+
+                <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
+            </div>
         </div>
         <canvas id="canvas1"></canvas> <!--Canvas containing babylonjs scene-->
     </body>
