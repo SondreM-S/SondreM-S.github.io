@@ -145,9 +145,9 @@ window.addEventListener("DOMContentLoaded", function() {
                         mat.albedoTexture = newMat;
                         mesh.material = mat;
                     }
-                    else{
+                    else{ //Anything but fabrics and metals
                         try{
-
+                            // Do nothing
                         }catch(err){
                             console.log("Error in material set: \n"+err)
                         }
@@ -156,7 +156,7 @@ window.addEventListener("DOMContentLoaded", function() {
             })
         }
 
-        this.toggleComponent = function(num) {
+        this.toggleComponent = function(num) { // Old code for toggling components, using hardcoded component names
             if(num == 0){ //Armrest
                 meshCollect.filter(checkNull).forEach(function(mesh){
                     if (mesh.name != null){                    
@@ -181,28 +181,48 @@ window.addEventListener("DOMContentLoaded", function() {
 
         };
 
-        this.toggleComponent1 = function(meshGroup) { // Toggle the given meshGroup (component)
+        this.toggleComponent1 = function(meshGroup) { // Toggle the given meshGroup (component) generating buttons automatically
             meshGroup.filter(checkNull).forEach(function(mesh){
                 mesh.setEnabled(mesh.isEnabled() ? false : true); 
             })
         };
 
         this.takeScreenshot = function(){ // Take screenshot of current babylonjs canvas view and make .jpg to download
-            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, {width: 1500, height: 1500, precision: 1},
+            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera,
+                {width: 5000, height: 5000, precision: 1}, // Size of image
                 undefined, // SuccessCalback
-                'image/jpg', // MimeType
+                'image/png', // MimeType
                 8, // Samples
                 false, // AntiAliasing
-                'screenshot.jpg' // Filename and type
+                'Screenshot.png' // Filename and type
                 )
         }
 
         this.exportModel = function(){ // Export and download current mesh
-            BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera, 2500);
+            var obj = BABYLON.OBJExport.OBJ(meshCollect, false, "", true)
+            console.log(obj)
+            // const obj = BABYLON.OBJExport.OBJ(meshes, false, "", true);
+            // const mtl = OBJExport.MTL(array_Meshes)
+
+            // const names = ['object.obj', 'material.mtl']
+            // const blobs = [new Blob([obj], { type: 'octet/stream' }), new Blob([mtl], { type: 'octet/stream' })]
+            this.downloadBlob([obj], "modelFile.obj")
         }
 
         function checkNull(mesh) {
             return mesh.material != null;
+        }
+
+        // Function to download data to a file
+        this.downloadBlob = function(blob, fileName) {
+            let link = document.createElement('a');
+            document.body.appendChild(link);
+            link.setAttribute("type", "hidden");
+            link.download = fileName;
+            let mimeType = { type: "text/plain" };
+
+            link.href = window.URL.createObjectURL(new Blob([blob], mimeType));
+            link.click();
         }
 
         
