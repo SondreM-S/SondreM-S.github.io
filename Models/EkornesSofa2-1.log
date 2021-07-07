@@ -98,7 +98,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  188040
 		num normals        :  188040
 		num tangents       :  0
-		num uvs            :  376080
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  62690
@@ -113,7 +113,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  65109
 		num normals        :  65109
 		num tangents       :  0
-		num uvs            :  130218
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  21712
@@ -128,7 +128,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  96831
 		num normals        :  96831
 		num tangents       :  0
-		num uvs            :  193662
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  32288
@@ -143,7 +143,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  31656
 		num normals        :  31656
 		num tangents       :  0
-		num uvs            :  63312
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10564
@@ -158,7 +158,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  33454
 		num normals        :  33454
 		num tangents       :  0
-		num uvs            :  66908
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  11162
@@ -173,7 +173,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  31898
 		num normals        :  31898
 		num tangents       :  0
-		num uvs            :  63796
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  10640
@@ -188,7 +188,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  12735
 		num normals        :  12735
 		num tangents       :  0
-		num uvs            :  25470
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  4248
@@ -203,7 +203,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  5356
 		num normals        :  5356
 		num tangents       :  0
-		num uvs            :  10712
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  1794
@@ -218,7 +218,7 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		num positions      :  11500
 		num normals        :  11500
 		num tangents       :  0
-		num uvs            :  23000
+		num uvs            :  0
 		num uvs2           :  0
 		num colors         :  0
 		num triangles      :  3836
@@ -240,4 +240,4 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 	writing mesh:  Pillows_Fabric_False.008
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 50.2263 secs
+elapsed time:  0 min, 29.4068 secs
