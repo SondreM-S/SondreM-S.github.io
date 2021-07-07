@@ -29,78 +29,16 @@ window.addEventListener("DOMContentLoaded", function() {
         var lightState = 2; // State mangager for setting lights
 
         // Generate lights
-        var light0  = new BABYLON.PointLight("pointLight0", new BABYLON.Vector3( -0.1, 0.1, 0), scene);
-        var light1 = new BABYLON.PointLight("pointLight1", new BABYLON.Vector3(50, 10, -50), scene);
-        var light2 = new BABYLON.PointLight("pointLight2", new BABYLON.Vector3(-50, 10, -50), scene);
-        var light3 = new BABYLON.PointLight("pointLight3", new BABYLON.Vector3( 0, 3, 10), scene);
-        var light4 = new BABYLON.HemisphericLight("hemisphericLight", new BABYLON.Vector3(0, 1, 0), scene); // Ambien light (above)
+
+        var light = new BABYLON.HemisphericLight("hemisphericLight", new BABYLON.Vector3(0, 1, 0), scene); // Ambien light (above)
         
-        light0.parent = camera; // Attaches the light to the camera position and direction (With the setup offsett eg. 10 units over camera)
-        light0.diffuse = new BABYLON.Color3(1,1,1); // White light
-        light0.intensity = 8;
-        light0.shadowMinZ = 0.1;
-        light0.shadowMaxZ = 10;
-        light0.setEnabled(false);
-        var shadowGenerator0 = new BABYLON.ShadowGenerator(2048*2, light0); // First attempt at enabling shadow casting on model between components (1024 gives resolution of shadow(?))
-        shadowGenerator0.usePoissonSampling = true;
-        // Setup action manager which looks for user actions like pushed spacebar and runs chosen function. Eg. Turn light on or off
 
-        light1.diffuse = new BABYLON.Color3(1,1,1); // White light
-        //light1.parent = camera; // Attaches the light to the camera position and direction (With the setup offsett eg. 10 units over camera)
-        light1.intensity = 6000;
-        light1.shadowMinZ = 0.1;
-        light1.shadowMaxZ = 100;
-        //light1.autoUpdateExtends = true;
-        //light1.shadowOrthoScale = 1.5;
-        light1.setEnabled(false);
-
-        var shadowGenerator1 = new BABYLON.ShadowGenerator(2048*2, light1); // First attempt at enabling shadow casting on model between components (1024 gives resolution of shadow(?))
-
-        light2.diffuse = new BABYLON.Color3(1,1,1); // White light
-        //light1.parent = camera; // Attaches the light to the camera position and direction (With the setup offsett eg. 10 units over camera)
-        light2.intensity = 6000;
-        light2.shadowMinZ = 0.1;
-        light2.shadowMaxZ = 100;
-        //light1.autoUpdateExtends = true;
-        //light1.shadowOrthoScale = 1.5;
-        light2.setEnabled(false);
-
-        var shadowGenerator2 = new BABYLON.ShadowGenerator(2048*2, light2); // First attempt at enabling shadow casting on model between components (1024 gives resolution of shadow(?))
-
-        light3.diffuse = new BABYLON.Color3(1,1,1); // White light
-        //light3.parent = camera; // Attaches the light to the camera position and direction (With the setup offsett eg. 10 units over camera)
-        light3.intensity = 60;
-        light3.shadowMinZ = 0.1;
-        light3.shadowMaxZ = 100;
-        //light3.autoUpdateExtends = true;
-        //light3.shadowOrthoScale = 1.5;
-        light3.setEnabled(false);
-
-        var shadowGenerator3 = new BABYLON.ShadowGenerator(2048*2, light3); // First attempt at enabling shadow casting on model between components (1024 gives resolution of shadow(?))
-
-        light4.intensity = 0.7; // Ambient light
-        light4.setEnabled(true);
-        //var shadowGenerator4 = new BABYLON.ShadowGenerator(2048*2, light4);
-
-        shadowGenerator0.useCloseExponentialShadowMap = true; // Enable shadow casting(?)
-        shadowGenerator1.useCloseExponentialShadowMap = true; // Enable shadow casting(?)
-        shadowGenerator2.useCloseExponentialShadowMap = true; // Enable shadow casting(?)
-        shadowGenerator3.useCloseExponentialShadowMap = true; // Enable shadow casting(?)
+        light.intensity = 0.7; // Ambient light
+        light.setEnabled(true);
+        //var shadowGenerator4 = new BABYLON.ShadowGenerator(2048*2, light);
         //shadowGenerator4.useCloseExponentialShadowMap = true;
 
         ////////////////////////////////////////////////////////////////////////////////////////////
-
-        // Functions for button functionality
-        this.changeLight = function(){
-            if(lightState == 2){lightState = 0}
-            else{lightState++};
-            
-            light0.setEnabled(lightState == 0); // Set to other boolean than current for light state (on/off)
-            light1.setEnabled(lightState == 1); // Set to other boolean than current for light state (on/off)
-            light2.setEnabled(lightState == 1); // Set to other boolean than current for light state (on/off)
-            light3.setEnabled(lightState == 1); // Set to other boolean than current for light state (on/off)
-            light4.setEnabled(lightState == 2); 
-        }
 
 
         this.changeMaterial = function(img){ // Gerneralised funciton for changing material
@@ -224,21 +162,124 @@ window.addEventListener("DOMContentLoaded", function() {
         }
 
 
+        this.cleanScene = function(){ // Function for removing all elements of a scene (All meshes in meshCollect)
+            meshCollect.forEach(function(mesh){ // Every mesh in meshCollect
+                mesh.dispose();
+                mesh = null; // Get garbage collector to pick up the mesh 
+            })
+        }
+
+
+        this.loadModel = function(model){
+            //Remove current buttons from component control by removing all elements in div
+            var divParent = document.getElementById("component-control");
+            removeAllChildNodes(divParent);
+
+            // Remove old mesh in model
+            cleanScene();
+
+            BABYLON.SceneLoader.ImportMesh("","Models/", 
+            model,
+            scene,
+            function(newMeshes){ // newMeshes is an array of all submeshes
+                toggleGroups = [];
+                newMeshes.filter(checkNull).forEach(function(mesh){
+                    // For every component(mesh) in model
+                    mesh.receiveShadows = true; // Allow mesh to have shadows
+                    
+                    if (mesh.material.name != null){                   
+                        // Reads the name of each part and changes the material if a fabric is found
+                        if(mesh.name.split("_")[1] == "Metal"){
+                            // Metal found, add shiny metal effect, else remove all shine
+                            mesh.material.metallic = 5;
+                            // mesh.material.ref
+                            mesh.material.roughness = 0.4;
+                        }else if(mesh.name.split("_")[1] == "Fabric"){
+                            // Fabric found
+                            mesh.material.metallic = 0.1;
+                            mesh.material.roughness = 1;
+                        }
+                        else{
+                            try{
+                                mesh.material.metallic = null;
+                                mesh.material.roughness = 0.5;
+                            }catch(err){
+                                console.log("Error in material set: \n"+err)
+                            }
+                        }
+                    }
+    
+                    // Generate buttons for toggling visibility of components based on group names
+                    // Add component totoggleable list list
+                    toggleable = mesh.name.split("_")[2].split(".")[0];
+                    if (toggleable=="True"){
+                        // Either create list to append to toggleGroup list or append to existing list
+                        gName = mesh.name.split("_")[0]; //Group (component) name, eg. Armrest, tablePlate etc...
+                        // Check first component of all list in toggleGroups, if no match is found, create new list and append to toggleGroups
+                        let found = 0; // Boolean to see if mesh group already added or not
+                        toggleGroups.forEach(function(meshGroup){
+                            // For each meshGroup, check first element name and compare with mesh element name
+                            listGName = meshGroup[0].name.split("_")[0]; // First element name
+                            if (listGName == gName){
+                                found = 1; // Match found
+                                meshGroup.push(mesh);
+                            }
+                        })
+                        if (found == 0){ // No group found
+                            tempArr = [];
+                            tempArr.push(mesh);
+                            toggleGroups.push(tempArr);
+                        }
+                    }else if(toggleable=="False"){
+                        // Component not toggleable, do nothing
+                    }else{
+                        // Found error in Sketchup export, no visibility toggle found
+                    }
+                })
+                // Use toggleGroups to generate buttons
+                meshCollect = newMeshes;
+                if (toggleGroups.length != 0){// Add component control text div 
+                    var divComp = document.getElementById("component-control"); // Pointer to correct div 
+                    const header = document.createElement("h2");
+                    const text = document.createTextNode("Component Control");
+                    header.appendChild(text);
+                    divComp.appendChild(header);
+
+                    toggleGroups.forEach(function(meshGroup){
+                        //Generate HTML button
+                        let btn = document.createElement("button");
+                        btn.id = "compContButton";
+                        btn.innerHTML = meshGroup[0].name.split("_")[0];
+                        btn.classList.add("button");
+                        btn.onclick = function(){
+                            toggleComponent(meshGroup);
+                        }
+                        divComp.appendChild(btn);
+                    })
+                }
+            })
+        }
+    
+
+
+        this.removeAllChildNodes = function (parent){
+            while (parent.firstChild) {
+                parent.removeChild(parent.firstChild);
+            }
+        }
+
+
         //shadowGenerator.useBlurExponentialShadowMap = true
         //shadowGenerator.bias = 0.1
         //shadowGenerator.forceBackFacesOnly = false
-        var subMesh = []; // Array of meshes in the model (broken up components) 
-        var subCSG = []; // Array for storing CSGs from each array mesh. These will be combined to a single model
-        var meshCSG = null;
-        var arrL;
+
         // Load in 3D model (name, folder, .babylon file,)
         // BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa.babylon.json",
-        BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa2-1.babylon",
-
-        // BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon.json",
-
+        // BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa2-1.babylon.json",
+        BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon.json",
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
+            toggleGroups = [];
             newMeshes.filter(checkNull).forEach(function(mesh){
                 // For every component(mesh) in model
                 //subMesh = mesh;
@@ -246,17 +287,6 @@ window.addEventListener("DOMContentLoaded", function() {
                 //subMesh = newMeshes; // Add to submesh array
                 //consol.log(mesh);
                 //subCSG.push(BABYLON.CSG.FromMesh(mesh)); // Add to CSG array to be combined after loop
-                meshCSG = newMeshes;
-                meshCollect = newMeshes;
-                shadowGenerator0.getShadowMap().renderList.push(mesh);
-                mesh.receiveShadows = true;
-                shadowGenerator1.getShadowMap().renderList.push(mesh);
-                mesh.receiveShadows = true;
-                shadowGenerator2.getShadowMap().renderList.push(mesh);
-                mesh.receiveShadows = true;
-                shadowGenerator3.getShadowMap().renderList.push(mesh);
-                mesh.receiveShadows = true;
-                //shadowGenerator4.getShadowMap().renderList.push(mesh);
                 mesh.receiveShadows = true;
                 
                 if (mesh.material.name != null){                   
@@ -280,7 +310,7 @@ window.addEventListener("DOMContentLoaded", function() {
                         }
                     }
                 }
-
+                
                 // Generate buttons for toggling visibility of components based on group names
                 // Add component totoggleable list list
                 toggleable = mesh.name.split("_")[2].split(".")[0];
@@ -302,26 +332,39 @@ window.addEventListener("DOMContentLoaded", function() {
                         tempArr.push(mesh);
                         toggleGroups.push(tempArr);
                     }
-
                 }else if(toggleable=="False"){
                     // Component not toggleable, do nothing
                 }else{
                     // Found error in Sketchup export, no visibility toggle found
                 }
             })
+
             // Use toggleGroups to generate buttons
-            toggleGroups.forEach(function(meshGroup){
-                //Generate HTML button
-                let btn = document.createElement("button");
-                btn.innerHTML = meshGroup[0].name.split("_")[0];
-                btn.classList.add("button");
-                btn.onclick = function(){
-                    toggleComponent(meshGroup);
-                }
-                var divComp = document.getElementById("component-control"); // Pointer to correct div 
-                divComp.appendChild(btn);
-            })
+            meshCollect = newMeshes;
+            if (toggleGroups.length != 0){
+            // Add component control text div 
+            var divComp = document.getElementById("component-control"); // Pointer to correct div 
+            const header = document.createElement("h2");
+            const text = document.createTextNode("Component Control");
+            header.appendChild(text);
+            divComp.appendChild(header);
+
+                toggleGroups.forEach(function(meshGroup){
+                    //Generate HTML button
+                    let btn = document.createElement("button");
+                    btn.id = "compContButton";
+                    btn.innerHTML = meshGroup[0].name.split("_")[0];
+                    btn.classList.add("button");
+                    btn.onclick = function(){
+                        toggleComponent(meshGroup);
+                    }
+                    divComp.appendChild(btn);
+                })
+            }
         });
+
+
+
         
 
         return scene;

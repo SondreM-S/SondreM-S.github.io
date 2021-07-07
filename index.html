@@ -10,6 +10,23 @@
     <body class="clearfix">
         <script src="babylonEngine.js"></script> <!--Javascript folder containing the babylonjs scene and engine.-->
         <div class="canvas2" id = "control-panel"> <!--div containing the control panel and buttons used for manipulating the babylon code-->
+            <div class="model-control" id = "model-control">
+                <h2>Select Model</h2>
+                <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
+                <input type="button" onClick="changeFabric()" value="Change Textures"> -->
+                <div class="dropdown">
+                    <button class="button">
+                        Select Model
+                    </button>
+                    
+                    <div class="dropdown-content">
+                        <a href="#" onClick='loadModel("Kinnarps_lowback.babylon.json")'>
+                            Kinnarps lowback</a>
+                        <a href="#" onClick='loadModel("EkornesSofa2-1.babylon.json")'>
+                            Ekornes Stressless</a>
+                    </div>
+                </div>
+            </div>
             <div class="Materials" id = "materials">
                 <h2>Material Control</h2>
                 <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
@@ -42,7 +59,7 @@
                 </div>
             </div>
             <div class="component-control" id = "component-control">
-                <h2>Component Control</h2>
+                <!-- <h2 id = "HeadText">Component Control</h2> -->
                 <!-- Toggleable components will be indexed in Sketchup -->
                 <!-- <button class="button" onClick="toggleComponent1(2)">Toggle Armrest</button> -->
                 <!-- <button class="button" onClick="toggleComponent1(1)">Toggle Headrest</button> -->
@@ -50,7 +67,7 @@
             <div class="export-control" id = "export-control">
                 <h2>Exports</h2>
                 <button class="button" onClick="takeScreenshot()">Take Screenshot</button> <!--Take a screenshot and export a .jpg download-->
-                <!--<button class="button" onClick="exportModel()">Export Model</button>--> <!--Download .obj of mesh-->
+                <button class="button" onClick="exportModel()">Export Model</button> <!--Download .obj of mesh-->
 
                 <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
             </div>
