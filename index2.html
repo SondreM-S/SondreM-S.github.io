@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BabylonJS Demo01</title>
+        <script src="https://cdn.babylonjs.com/babylon.max.js"></script>  <!--Brings in the babylon node directly from the babylon page. .max.js brings in ALL of Babylon and might be reduced at a later date-->
+        <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.js"></script>        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="clearfix">
+        <script src="headlessEngine.js"></script> <!--Javascript folder containing the babylonjs scene and engine.-->
+        <div class="canvas2" id = "control-panel"> <!--div containing the control panel and buttons used for manipulating the babylon code-->
+            </div>
+            <div class="export-control" id = "export-control">
+                <h2>Run headless</h2>
+                <button class="button" onClick="runHeadless()">Start headless screenshot</button> <!--Take a screenshot and export a .jpg download-->
+                <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
+            </div>
+        </div>
+        <canvas id="canvas1"></canvas> <!--Canvas containing babylonjs scene-->
+    </body>
+</html>

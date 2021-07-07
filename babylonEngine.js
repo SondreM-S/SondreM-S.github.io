@@ -2,6 +2,7 @@ window.addEventListener("DOMContentLoaded", function() {
     var canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
     var engine = new BABYLON.Engine(canvas, true);
 
+    var meshExp;
     var meshCollect = []; // List of mesh components
     var toggleGroups = []; // List of list with hideable components
 
@@ -9,7 +10,6 @@ window.addEventListener("DOMContentLoaded", function() {
         var scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
         engine.enableOfflineSupport = false; // For 3D models, disables offline file errors
         scene.clearColor = new BABYLON.Color3.White(); //Draws the background as white before everything else
-        //var box = BABYLON.MeshBuilder.CreateBox("Box", {size: 0.10}, scene); // Set box in scene
 
         // Orbiting camera
         var camera = new BABYLON.ArcRotateCamera("arcCamera", 
@@ -102,48 +102,27 @@ window.addEventListener("DOMContentLoaded", function() {
             light4.setEnabled(lightState == 2); 
         }
 
-        this.changeFabric = function(){
-            meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model
-                if (mesh.material.name != null){
-                    console.log("Found mat: "+mesh.name); 
-                    
-                    // Reads the name of each part and changes the material if a fabric is found
-                    if(mesh.name.substring(0,5) == "metal"){
-                        // Metal found, add shiny metal effect, else remove all shine
-                        mesh.material.metallic = 5;
-                        mesh.material.roughness = 0.4;
-                    }else if(mesh.material.name.substring(0,5) == "Captu"){
-                        // Fabric found
-                        console.log("Found fabric: "+mesh.material.name); 
-                        // mesh.material.metallic = 1;
-                        mesh.material.roughness = 1;
-                    }
-                    else{
-                        try{
-                            mesh.material.metallic = null;
-                            mesh.material.roughness = 0.5;
-                        }catch(err){
-                            console.log("Error in material set: \n"+err)
-                        }
-                    }
-                }
-            })
-        }
 
-        this.changeMaterial = function(img){
+        this.changeMaterial = function(img){ // Gerneralised funciton for changing material
             // console.log(img)
             meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model (Checknull removes null components)
-                if (mesh.material.name != null){                    
+                if (mesh.name != null){ // If mesh has name        
                     // Reads the name of each part and changes the material if a fabric is found
-                    if(mesh.name.substring(0,5) == "metal"){
+                    if(mesh.name.split("_")[1] == "Metal"){
                         // Metal found, add shiny metal effect, else remove all shine
-                    }else if(mesh.material.name.substring(0,5) == "Captu"){
+                    }else if(mesh.name.split("_")[1] == "Fabric"){
                         // Fabric found
                         // console.log("Found fabric: "+mesh.material.name); 
-                        var mat = mesh.material;
-                        var newMat = new BABYLON.Texture(img, scene);
-                        mat.albedoTexture = newMat;
-                        mesh.material = mat;
+                        
+                        var mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
+                        var newMat = new BABYLON.Texture(img, scene); // Find desired texture image
+                        // mat.bumpTexture = newMat;
+                        mat.albedoTexture = newMat; // Apply texture
+                        mat.albedoTexture.uScale = 1; // Scale texture
+                        mat.albedoTexture.vScake = 1; // Scale texture
+                        mat.metallic = 0.1; // Set metallic reflection
+                        mat.roughness = 1; // Set roughness for ammount of reflection
+                        mesh.material = mat; // Apply material to mesh
                     }
                     else{ //Anything but fabrics and metals
                         try{
@@ -156,7 +135,7 @@ window.addEventListener("DOMContentLoaded", function() {
             })
         }
 
-        this.toggleComponent = function(num) { // Old code for toggling components, using hardcoded component names
+        this.toggleComponent1 = function(num) { // Old code for toggling components, using hardcoded component names
             if(num == 0){ //Armrest
                 meshCollect.filter(checkNull).forEach(function(mesh){
                     if (mesh.name != null){                    
@@ -164,6 +143,7 @@ window.addEventListener("DOMContentLoaded", function() {
                         if(mesh.name.substring(0,5) == "Armre"){
                             // Metal found, add shiny metal effect, else remove all shine
                             mesh.setEnabled((mesh.isEnabled() ? false : true)); 
+                            meshExp = mesh;
                         }
                     }
                 })
@@ -177,11 +157,17 @@ window.addEventListener("DOMContentLoaded", function() {
                         }
                     }
                 })
+            }else if(num == 2){ //Toggle tests
+                // const browser = await puppeteer.launch({});
+                // const page = await browser.newPage();
+                // await page.goto("https://playground.babylonjs.com/frame.html#PN1NNI#1");
+                // page.evaluate("BABYLON.Engine.LastCreatedScene.activeCamera.alpha = 1.4;");
+                // await page.screenshot({path: './public/example.png'});
             }
 
         };
 
-        this.toggleComponent1 = function(meshGroup) { // Toggle the given meshGroup (component) generating buttons automatically
+        this.toggleComponent = function(meshGroup) { // Toggle the given meshGroup (component) generating buttons automatically
             meshGroup.filter(checkNull).forEach(function(mesh){
                 mesh.setEnabled(mesh.isEnabled() ? false : true); 
             })
@@ -197,16 +183,28 @@ window.addEventListener("DOMContentLoaded", function() {
                 'Screenshot.png' // Filename and type
                 )
         }
-
+ 
         this.exportModel = function(){ // Export and download current mesh
-            var obj = BABYLON.OBJExport.OBJ(meshCollect, false, "", true)
-            console.log(obj)
+            meshCollect.shift()
+            // console.log(meshCollect);
+            var meshes = meshCollect.slice(31, 100);
+            console.log(meshes);    
+            // var obj = BABYLON.OBJExport.OBJ(box, false, "", true);
+
+            // console.log(obj);
             // const obj = BABYLON.OBJExport.OBJ(meshes, false, "", true);
             // const mtl = OBJExport.MTL(array_Meshes)
 
             // const names = ['object.obj', 'material.mtl']
             // const blobs = [new Blob([obj], { type: 'octet/stream' }), new Blob([mtl], { type: 'octet/stream' })]
-            this.downloadBlob([obj], "modelFile.obj")
+            // downloadBlob(BABYLON.GLTF2Export.GLTFAsync(meshes, "objExport.obj"));
+            // BABYLON.GLTF2Export.GLTFAsync(scene, "gltfExport.gltf");
+            // gltf.downloadFiles();
+
+            // Initializer code...
+            BABYLON.GLTF2Export.GLBAsync(scene, "fileName").then((glb) => {
+                glb.downloadFiles();
+            });
         }
 
         function checkNull(mesh) {
@@ -220,12 +218,10 @@ window.addEventListener("DOMContentLoaded", function() {
             link.setAttribute("type", "hidden");
             link.download = fileName;
             let mimeType = { type: "text/plain" };
-
+        
             link.href = window.URL.createObjectURL(new Blob([blob], mimeType));
             link.click();
         }
-
-        
 
 
         //shadowGenerator.useBlurExponentialShadowMap = true
@@ -236,7 +232,11 @@ window.addEventListener("DOMContentLoaded", function() {
         var meshCSG = null;
         var arrL;
         // Load in 3D model (name, folder, .babylon file,)
-        BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon.json",
+        // BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa.babylon.json",
+        BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa2-1.babylon",
+
+        // BABYLON.SceneLoader.ImportMesh("","Models/","Kinnarps_lowback.babylon.json",
+
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
             newMeshes.filter(checkNull).forEach(function(mesh){
@@ -261,12 +261,12 @@ window.addEventListener("DOMContentLoaded", function() {
                 
                 if (mesh.material.name != null){                   
                     // Reads the name of each part and changes the material if a fabric is found
-                    if(mesh.name.substring(0,5) == "metal"){
+                    if(mesh.name.split("_")[1] == "Metal"){
                         // Metal found, add shiny metal effect, else remove all shine
                         mesh.material.metallic = 5;
                         // mesh.material.ref
                         mesh.material.roughness = 0.4;
-                    }else if(mesh.material.name.substring(0,5) == "Captu"){
+                    }else if(mesh.name.split("_")[1] == "Fabric"){
                         // Fabric found
                         mesh.material.metallic = 0.1;
                         mesh.material.roughness = 1;
@@ -316,7 +316,7 @@ window.addEventListener("DOMContentLoaded", function() {
                 btn.innerHTML = meshGroup[0].name.split("_")[0];
                 btn.classList.add("button");
                 btn.onclick = function(){
-                    toggleComponent1(meshGroup);
+                    toggleComponent(meshGroup);
                 }
                 var divComp = document.getElementById("component-control"); // Pointer to correct div 
                 divComp.appendChild(btn);

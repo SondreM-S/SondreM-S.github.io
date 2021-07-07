@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <title>BabylonJS Demo01</title>
         <script src="https://cdn.babylonjs.com/babylon.max.js"></script>  <!--Brings in the babylon node directly from the babylon page. .max.js brings in ALL of Babylon and might be reduced at a later date-->
-        <script src="https://cdn.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.js"></script>        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body class="clearfix">
@@ -44,13 +43,14 @@
             </div>
             <div class="component-control" id = "component-control">
                 <h2>Component Control</h2>
-                <!-- <button class="button" onClick="toggleComponent(0)">Toggle Armrest</button>Toggleable components will be indexed in Sketchup -->
-                <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
+                <!-- Toggleable components will be indexed in Sketchup -->
+                <!-- <button class="button" onClick="toggleComponent1(2)">Toggle Armrest</button> -->
+                <!-- <button class="button" onClick="toggleComponent1(1)">Toggle Headrest</button> -->
             </div>
             <div class="export-control" id = "export-control">
                 <h2>Exports</h2>
                 <button class="button" onClick="takeScreenshot()">Take Screenshot</button> <!--Take a screenshot and export a .jpg download-->
-                <!-- <button class="button" onClick="exportModel()">Export Model</button> Download .obj of mesh -->
+                <button class="button" onClick="exportModel()">Export Model</button> <!--Download .obj of mesh-->
 
                 <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
             </div>
