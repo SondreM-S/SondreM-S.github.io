@@ -1,0 +1,243 @@
+Exporter version: 2.93.1, Blender version: 2.93.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  D:\Jobb\Xeris\variant-3d-viewer-master\Babylon\Models\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently enabled collection
+	processing begun of node:  SketchUp
+	processing begun of camera (UniversalCamera):  skp_camera_Last_Saved_SketchUp_View
+	processing begun of mesh:  Legs_Wood_False
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#0
+		num positions      :  1434
+		num normals        :  1434
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  524
+	processing begun of mesh:  Legs_Wood_False.001
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		registered as also a user of material:  acadd3dfdddc
+		registered as also a user of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#1
+		num positions      :  1422
+		num normals        :  1422
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  520
+	processing begun of mesh:  Legs_Wood_False.002
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		registered as also a user of material:  acadd3dfdddc
+		registered as also a user of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#2
+		num positions      :  574
+		num normals        :  574
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  194
+	processing begun of mesh:  Legs_Wood_False.003
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		registered as also a user of material:  acadd3dfdddc
+		registered as also a user of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#3
+		num positions      :  608
+		num normals        :  608
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  204
+	processing begun of mesh:  Legs_Wood_False.004
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		registered as also a user of material:  acadd3dfdddc
+		registered as also a user of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#4
+		num positions      :  588
+		num normals        :  588
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  196
+	processing begun of mesh:  Legs_Wood_False.005
+		processing begun of material:  acadd3dfdddc
+		processing begun of material:  edge_color202156106255
+		registered as also a user of material:  acadd3dfdddc
+		registered as also a user of material:  edge_color202156106255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#5
+		num positions      :  564
+		num normals        :  564
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  192
+	processing begun of mesh:  Pillows_Fabric_False
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#6
+		num positions      :  188040
+		num normals        :  188040
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  62690
+	processing begun of mesh:  Pillows_Fabric_False.001
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#7
+		num positions      :  65109
+		num normals        :  65109
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  21712
+	processing begun of mesh:  Pillows_Fabric_False.002
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#8
+		num positions      :  96831
+		num normals        :  96831
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  32288
+	processing begun of mesh:  Pillows_Fabric_False.003
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#9
+		num positions      :  31656
+		num normals        :  31656
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10564
+	processing begun of mesh:  Pillows_Fabric_False.004
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#10
+		num positions      :  33454
+		num normals        :  33454
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  11162
+	processing begun of mesh:  Pillows_Fabric_False.005
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#11
+		num positions      :  31898
+		num normals        :  31898
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10640
+	processing begun of mesh:  Pillows_Fabric_False.006
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#12
+		num positions      :  12735
+		num normals        :  12735
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  4248
+	processing begun of mesh:  Pillows_Fabric_False.007
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#13
+		num positions      :  5356
+		num normals        :  5356
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  1794
+	processing begun of mesh:  Pillows_Fabric_False.008
+		processing begun of material:  material
+		processing begun of material:  material_0
+		processing begun of material:  edge_color000255
+		registered as also a user of material:  material
+		registered as also a user of material:  material_0
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  EkornesSofa2.Multimaterial#14
+		num positions      :  11500
+		num normals        :  11500
+		num tangents       :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  3836
+========= Writing of JSON file started =========
+	writing mesh:  Legs_Wood_False
+	writing mesh:  Legs_Wood_False.001
+	writing mesh:  Legs_Wood_False.002
+	writing mesh:  Legs_Wood_False.003
+	writing mesh:  Legs_Wood_False.004
+	writing mesh:  Legs_Wood_False.005
+	writing mesh:  Pillows_Fabric_False
+	writing mesh:  Pillows_Fabric_False.001
+	writing mesh:  Pillows_Fabric_False.002
+	writing mesh:  Pillows_Fabric_False.003
+	writing mesh:  Pillows_Fabric_False.004
+	writing mesh:  Pillows_Fabric_False.005
+	writing mesh:  Pillows_Fabric_False.006
+	writing mesh:  Pillows_Fabric_False.007
+	writing mesh:  Pillows_Fabric_False.008
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 20.0029 secs
