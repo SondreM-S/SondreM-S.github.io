@@ -14,9 +14,10 @@
     width: 50%;
     background-color: rgb(223, 223, 223);
 }
-.canvas5{ /*canvas for having only the model in webpage for use with page.screenshot*/
-    width: 100%;
+
+#canvas5{
     height: 98vh;
+    width: 100%;
 }
 
 .button{

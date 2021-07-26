@@ -1,36 +1,33 @@
 window.addEventListener("DOMContentLoaded", function() { 
-    var canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
-    var engine = new BABYLON.Engine(canvas, true);
+    const canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
+    const engine = new BABYLON.Engine(canvas, true);
 
-    var meshExp;
-    var meshCollect = []; // List of mesh components
-    var toggleGroups = []; // List of list with hideable components
+    let meshCollect = []; // List of mesh components
+    let toggleGroups = []; // List of list with hideable components
 
-    var createScene = function () {
-        var scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
+    const createScene = function () {
+        const scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
         engine.enableOfflineSupport = false; // For 3D models, disables offline file errors
         scene.clearColor = new BABYLON.Color3.White(); //Draws the background as white before everything else
 
         // Orbiting camera
-        var camera = new BABYLON.ArcRotateCamera("arcCamera", 
+        const camera = new BABYLON.ArcRotateCamera("arcCamera", 
             BABYLON.Tools.ToRadians(-120), // Alpha rotation
             BABYLON.Tools.ToRadians(60), // Beta rotation
             3.0,  // Radius from rotation entity
             new BABYLON.Vector3(0, 0.5, 0), // Entity to orbit
             scene) // Sets up a orbiting camera 
         camera.lowerRadiusLimit = 2;
+        camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23));
         // camera.position = new BABYLON.Vector3(-1.18183, 1.3636, -2.02970); // Point the camera to the model (not scaled automatically)
         camera.wheelPrecision = 50; // Increases the precision of the scrolling zoom
         // camera.wheelDeltaPercentage = true;
 
         camera.attachControl(canvas, true); // Allows camera input in game loop
 
-        var lightPos = new BABYLON.Vector3(5, 2, -2)
-        var lightState = 2; // State mangager for setting lights
-
         // Generate lights
 
-        var light = new BABYLON.HemisphericLight("hemisphericLight", new BABYLON.Vector3(0, 1, 0), scene); // Ambien light (above)
+        const light = new BABYLON.HemisphericLight("hemisphericLight", new BABYLON.Vector3(0, 1, 0), scene); // Ambien light (above)
         
 
         light.intensity = 0.7; // Ambient light
@@ -39,7 +36,6 @@ window.addEventListener("DOMContentLoaded", function() {
         //shadowGenerator4.useCloseExponentialShadowMap = true;
 
         ////////////////////////////////////////////////////////////////////////////////////////////
-
 
         this.changeMaterial = function(img){ // Gerneralised funciton for changing material
             // console.log(img)
@@ -52,8 +48,8 @@ window.addEventListener("DOMContentLoaded", function() {
                         // Fabric found
                         // console.log("Found fabric: "+mesh.material.name); 
                         
-                        var mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
-                        var newMat = new BABYLON.Texture(img, scene); // Find desired texture image
+                        const mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
+                        const newMat = new BABYLON.Texture(img, scene); // Find desired texture image
                         // mat.bumpTexture = newMat;
                         mat.albedoTexture = newMat; // Apply texture
                         mat.albedoTexture.uScale = 1; // Scale texture
@@ -111,21 +107,22 @@ window.addEventListener("DOMContentLoaded", function() {
             })
         };
 
-        this.takeScreenshot = function(){ // Take screenshot of current babylonjs canvas view and make .jpg to download
+        this.takeScreenshot = function(callback){ // Take screenshot of current babylonjs canvas view and make .jpg to download
             BABYLON.Tools.CreateScreenshotUsingRenderTarget(engine, camera,
-                {width: 5000, height: 5000, precision: 1}, // Size of image
-                undefined, // SuccessCalback
+                {width: 2500, height: 2500, precision: 1}, // Size of image
+                callback, // SuccessCalback
                 'image/png', // MimeType
                 8, // Samples
                 false, // AntiAliasing
                 'Screenshot.png' // Filename and type
                 )
+            console.log("Inside screenshot function");
         }
  
         this.exportModel = function(){ // Export and download current mesh
             meshCollect.shift()
             // console.log(meshCollect);
-            var meshes = meshCollect.slice(31, 100);
+            const meshes = meshCollect.slice(31, 100);
             console.log(meshes);    
             // var obj = BABYLON.OBJExport.OBJ(box, false, "", true);
 
@@ -145,6 +142,23 @@ window.addEventListener("DOMContentLoaded", function() {
             });
         }
 
+        this.moveCamera1 = function(direction) {
+            // Function for changing the camera position and direction
+            console.log("In moveCam");
+            // if (direction === "Front") {console.log(camera.position())};
+            // console.log(`Direction: ${direction}`);
+        }
+
+        this.moveCamera = (direction) => {
+            // Function for changing the camera position and direction
+            console.log("In moveCam");
+            if (direction === "Front") {camera.setPosition(new BABYLON.Vector3(0, 1, -1.93))};
+            if (direction === "Iso") {camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23))};
+            if (direction === "Back") {camera.setPosition(new BABYLON.Vector3(0, 1, 1.93))};
+
+            console.log(`Direction: ${direction}`);
+        }
+
         function checkNull(mesh) {
             return mesh.material != null;
         }
@@ -161,7 +175,6 @@ window.addEventListener("DOMContentLoaded", function() {
             link.click();
         }
 
-
         this.cleanScene = function(){ // Function for removing all elements of a scene (All meshes in meshCollect)
             meshCollect.forEach(function(mesh){ // Every mesh in meshCollect
                 mesh.dispose();
@@ -172,7 +185,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         this.loadModel = function(model){
             //Remove current buttons from component control by removing all elements in div
-            var divParent = document.getElementById("component-control");
+            const divParent = document.getElementById("component-control");
             removeAllChildNodes(divParent);
 
             // Remove old mesh in model
@@ -239,7 +252,7 @@ window.addEventListener("DOMContentLoaded", function() {
                 // Use toggleGroups to generate buttons
                 meshCollect = newMeshes;
                 if (toggleGroups.length != 0){// Add component control text div 
-                    var divComp = document.getElementById("component-control"); // Pointer to correct div 
+                    const divComp = document.getElementById("component-control"); // Pointer to correct div 
                     const header = document.createElement("h2");
                     const text = document.createTextNode("Component Control");
                     header.appendChild(text);
@@ -343,7 +356,7 @@ window.addEventListener("DOMContentLoaded", function() {
             meshCollect = newMeshes;
             if (toggleGroups.length != 0){
             // Add component control text div 
-            var divComp = document.getElementById("component-control"); // Pointer to correct div 
+            const divComp = document.getElementById("component-control"); // Pointer to correct div 
             const header = document.createElement("h2");
             const text = document.createTextNode("Component Control");
             header.appendChild(text);
@@ -369,7 +382,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
         return scene;
     }
-    var scene = createScene();
+    const scene = createScene();
     
     // Create gameloop
     engine.runRenderLoop(function(){
