@@ -2,6 +2,7 @@ window.addEventListener("DOMContentLoaded", function() {
     const canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
     const engine = new BABYLON.Engine(canvas, true);
 
+    let cameraStatus = false
     let meshCollect = []; // List of mesh components
     let toggleGroups = []; // List of list with hideable components
 
@@ -23,7 +24,7 @@ window.addEventListener("DOMContentLoaded", function() {
         camera.wheelPrecision = 50; // Increases the precision of the scrolling zoom
         // camera.wheelDeltaPercentage = true;
 
-        camera.attachControl(canvas, true); // Allows camera input in game loop
+        // camera.attachControl(canvas, true); // Allows camera input in game loop
 
         // Generate lights
 
@@ -142,22 +143,22 @@ window.addEventListener("DOMContentLoaded", function() {
             });
         }
 
-        this.moveCamera1 = function(direction) {
-            // Function for changing the camera position and direction
-            console.log("In moveCam");
-            // if (direction === "Front") {console.log(camera.position())};
-            // console.log(`Direction: ${direction}`);
-        }
-
         this.moveCamera = (direction) => {
             // Function for changing the camera position and direction
-            console.log("In moveCam");
             if (direction === "Front") {camera.setPosition(new BABYLON.Vector3(0, 1, -1.93))};
             if (direction === "Iso") {camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23))};
             if (direction === "Back") {camera.setPosition(new BABYLON.Vector3(0, 1, 1.93))};
 
             console.log(`Direction: ${direction}`);
         }
+
+        
+        this.freeCamera = () => {
+            // camera.attachControl(canvas, true); // Allows camera input in game loop
+            if (cameraStatus){camera.detachControl();} // Remove camera control
+            else{camera.attachControl(canvas, true);} // Add camera control
+            cameraStatus = !cameraStatus;
+        }   
 
         function checkNull(mesh) {
             return mesh.material != null;
