@@ -148,8 +148,7 @@ window.addEventListener("DOMContentLoaded", function() {
             if (direction === "Front") {camera.setPosition(new BABYLON.Vector3(0, 1, -1.93))};
             if (direction === "Iso") {camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23))};
             if (direction === "Back") {camera.setPosition(new BABYLON.Vector3(0, 1, 1.93))};
-
-            console.log(`Direction: ${direction}`);
+            camera.target = new BABYLON.Vector3(0, 0.5, 0);
         }
 
         
