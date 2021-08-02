@@ -11,6 +11,17 @@ window.addEventListener("DOMContentLoaded", function() {
         engine.enableOfflineSupport = false; // For 3D models, disables offline file errors
         scene.clearColor = new BABYLON.Color3.White(); //Draws the background as white before everything else
 
+
+        
+        // // Our built-in 'sphere' shape.
+        // var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 0.5, segments: 32}, scene);
+
+        // // Move the sphere upward 1/2 its height
+        // sphere.position.x = 0;
+        // sphere.position.y = 1;
+        // sphere.position.z = 0;
+
+
         // Orbiting camera
         const camera = new BABYLON.ArcRotateCamera("arcCamera", 
             BABYLON.Tools.ToRadians(-120), // Alpha rotation
@@ -19,7 +30,8 @@ window.addEventListener("DOMContentLoaded", function() {
             new BABYLON.Vector3(0, 0.5, 0), // Entity to orbit
             scene) // Sets up a orbiting camera 
         camera.lowerRadiusLimit = 2;
-        camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23));
+        camera.setPosition(new BABYLON.Vector3(0, 1.377, -2.88));
+        camera.fov = BABYLON.Tools.ToRadians(35) // Sets the default fov ot match Sketchups 35°
         // camera.position = new BABYLON.Vector3(-1.18183, 1.3636, -2.02970); // Point the camera to the model (not scaled automatically)
         camera.wheelPrecision = 50; // Increases the precision of the scrolling zoom
         // camera.wheelDeltaPercentage = true;
@@ -29,7 +41,6 @@ window.addEventListener("DOMContentLoaded", function() {
         // Generate lights
 
         const light = new BABYLON.HemisphericLight("hemisphericLight", new BABYLON.Vector3(0, 1, 0), scene); // Ambien light (above)
-        
 
         light.intensity = 0.7; // Ambient light
         light.setEnabled(true);
@@ -149,15 +160,39 @@ window.addEventListener("DOMContentLoaded", function() {
             if (direction === "Iso") {camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23))};
             if (direction === "Back") {camera.setPosition(new BABYLON.Vector3(0, 1, 1.93))};
             camera.target = new BABYLON.Vector3(0, 0.5, 0);
+            console.log(camera.fov)
         }
 
+        this.setCamera = (cam_pos, tar_pos, fov) => {
+            // Function for setting camera based on input values
+            // camera.setPosition(new BABYLON.Vector3(0, 1, -1.93)
+            x = cam_pos["x"];
+            y = cam_pos["y"];
+            z = cam_pos["z"];
+            x_t = tar_pos["x"];
+            y_t = tar_pos["y"];
+            z_t = tar_pos["z"];
+            console.log(`${x} ` + `${y} ` + `${z}`)
+            console.log(`${x_t} ` + `${y_t} ` + `${z_t}`)
+            camera.setPosition(new BABYLON.Vector3(x, y, z))
+            // camera.setTarget(new BABYLON.Vector3(0, 0.5, 0))
+
+            camera.setTarget(new BABYLON.Vector3(x_t, y_t, z_t))
+            console.log(camera.fov)
+            console.log("fov: " + BABYLON.Tools.ToRadians(fov))
+            camera.fov = BABYLON.Tools.ToRadians(fov);
+        }
+        
         
         this.freeCamera = () => {
             // camera.attachControl(canvas, true); // Allows camera input in game loop
             if (cameraStatus){camera.detachControl();} // Remove camera control
             else{camera.attachControl(canvas, true);} // Add camera control
             cameraStatus = !cameraStatus;
-        }   
+            camera.fov = 0.610865 // 35 degree fov to match sketchup view. Helps when making translation algorithm.
+        }
+
+        const getPos = (obj) => obj.position;
 
         function checkNull(mesh) {
             return mesh.material != null;
@@ -186,10 +221,13 @@ window.addEventListener("DOMContentLoaded", function() {
         this.loadModel = function(model){
             //Remove current buttons from component control by removing all elements in div
             const divParent = document.getElementById("component-control");
+            const divCam = document.getElementById("mod-camera-control");
+            removeAllChildNodes(divCam);
             removeAllChildNodes(divParent);
 
             // Remove old mesh in model
             cleanScene();
+
 
             BABYLON.SceneLoader.ImportMesh("","Models/", 
             model,
@@ -249,7 +287,8 @@ window.addEventListener("DOMContentLoaded", function() {
                         // Found error in Sketchup export, no visibility toggle found
                     }
                 })
-                // Use toggleGroups to generate buttons
+            
+                // Use toggleGroups to generate buttons for component control
                 meshCollect = newMeshes;
                 if (toggleGroups.length != 0){// Add component control text div 
                     const divComp = document.getElementById("component-control"); // Pointer to correct div 
@@ -270,18 +309,53 @@ window.addEventListener("DOMContentLoaded", function() {
                         divComp.appendChild(btn);
                     })
                 }
+
+                // get JSON name
+                j_name = "Models/" + model.split(".")[0] + "_exported.json";
+                console.log("name: "+j_name);
+            
+                // Generate camera buttons based on model JSON
+                let requested = new XMLHttpRequest();
+                requested.responseType = 'json';
+                requested.open('GET', j_name);
+                requested.onload = function() {
+                    const model_json = requested.response;
+                    console.log(model_json);
+
+                    // Setup button
+                    const divComp = document.getElementById("mod-camera-control"); // Pointer to correct div 
+
+                    // Read the amount of Views
+                    views = model_json["data"]["master_product"]["camera_views"];
+                    Object.keys(views).forEach(view => { // Loop over each view
+                        const cam_pos = views[view]["eye"];
+                        const target_pos = views[view]["target"];
+                        const fov = views[view]["fov"];
+                        console.log(views)
+
+                        // Make button with name and input set
+                        //Generate HTML button
+                        let btn = document.createElement("button");
+                        btn.id = "CamViewButton";
+                        btn.innerHTML = view;
+                        btn.classList.add("button");
+                        btn.onclick = function(){
+                            console.log(view + cam_pos["x"]);
+                            setCamera(cam_pos, target_pos, fov);
+                        };
+                        divComp.appendChild(btn);
+                    });
+                };
+                requested.send();
             })
         }
-    
-
 
         this.removeAllChildNodes = function (parent){
             while (parent.firstChild) {
                 parent.removeChild(parent.firstChild);
             }
         }
-
-
+            
         //shadowGenerator.useBlurExponentialShadowMap = true
         //shadowGenerator.bias = 0.1
         //shadowGenerator.forceBackFacesOnly = false
@@ -376,12 +450,44 @@ window.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-
-
         
+        // Generate camera buttons based on model JSON
+        const raw_json = "Models/Kinnarps_lowback_exported.json";
+        console.log("name: " + raw_json);
+        let request = new XMLHttpRequest();
+        request.responseType = 'json';
+        request.open('GET', raw_json);
+        request.onload = function() {
+            const model_json = request.response;
+            console.log(model_json)
 
+            // Setup button
+            const divComp = document.getElementById("mod-camera-control"); // Pointer to correct div 
+
+            // Read the amount of Views
+            views = model_json["data"]["master_product"]["camera_views"];
+            Object.keys(views).forEach(view => { // Loop over each view
+                const cam_pos = views[view]["eye"]
+                const target_pos = views[view]["target"]
+                const fov = views[view]["fov"]
+
+                // Make button with name and input set
+                //Generate HTML button
+                let btn = document.createElement("button");
+                btn.id = "CamViewButton";
+                btn.innerHTML = view;
+                btn.classList.add("button");
+                btn.onclick = function(){
+                    console.log(view + cam_pos["x"])
+                    setCamera(cam_pos, target_pos, fov);
+                }
+                divComp.appendChild(btn);
+            });
+        }
+        request.send();
         return scene;
     }
+
     const scene = createScene();
     
     // Create gameloop

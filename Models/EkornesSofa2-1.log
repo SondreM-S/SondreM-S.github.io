@@ -4,12 +4,12 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		Inline textures     :  false
 		Material Type       :  PBR
 		Positions Precision :  4
-		Normals Precision   :  3
-		UVs Precision       :  3
+		Normals Precision   :  4
+		UVs Precision       :  4
 		Vert Color Precision:  3
 		Mat Weight Precision:  2
 		Keep Z-up r-handed  :  no
-		Texture directory   :  D:\Jobb\Xeris\variant-3d-viewer-master\Babylon\Models\
+		Texture directory   :  D:\Jobb\Xeris\variant-3d-viewer\Babylon\Models\
 	Python World class constructor completed
 	WARNING: No active camera has been assigned, or is not in a currently enabled collection
 	processing begun of node:  SketchUp
@@ -95,8 +95,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		processing begun of material:  material_0
 		processing begun of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#6
-		num positions      :  188040
-		num normals        :  188040
+		num positions      :  188070
+		num normals        :  188070
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -110,8 +110,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#7
-		num positions      :  65109
-		num normals        :  65109
+		num positions      :  65132
+		num normals        :  65132
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -125,8 +125,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#8
-		num positions      :  96831
-		num normals        :  96831
+		num positions      :  96864
+		num normals        :  96864
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -140,8 +140,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#9
-		num positions      :  31656
-		num normals        :  31656
+		num positions      :  31688
+		num normals        :  31688
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -155,8 +155,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#10
-		num positions      :  33454
-		num normals        :  33454
+		num positions      :  33486
+		num normals        :  33486
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -170,8 +170,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#11
-		num positions      :  31898
-		num normals        :  31898
+		num positions      :  31920
+		num normals        :  31920
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -185,8 +185,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#12
-		num positions      :  12735
-		num normals        :  12735
+		num positions      :  12744
+		num normals        :  12744
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -200,8 +200,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#13
-		num positions      :  5356
-		num normals        :  5356
+		num positions      :  5378
+		num normals        :  5378
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -215,8 +215,8 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 		registered as also a user of material:  material_0
 		registered as also a user of material:  edge_color000255
 		processing begun of multimaterial:  EkornesSofa2_1.Multimaterial#14
-		num positions      :  11500
-		num normals        :  11500
+		num positions      :  11508
+		num normals        :  11508
 		num tangents       :  0
 		num uvs            :  0
 		num uvs2           :  0
@@ -240,4 +240,4 @@ Exporter version: 2.93.1, Blender version: 2.93.1
 	writing mesh:  Pillows_Fabric_False.008
 ========= Writing of JSON file completed =========
 ========= end of processing =========
-elapsed time:  0 min, 29.4068 secs
+elapsed time:  0 min, 22.3253 secs
