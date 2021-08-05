@@ -2,18 +2,19 @@ window.addEventListener("DOMContentLoaded", function() {
     const canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
     const engine = new BABYLON.Engine(canvas, true);
 
-    let cameraStatus = false
-    let meshCollect = []; // List of mesh components
-    let toggleGroups = []; // List of list with hideable components
-
+    
     const createScene = function () {
         const scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
         engine.enableOfflineSupport = false; // For 3D models, disables offline file errors
-        scene.clearColor = new BABYLON.Color3.White(); //Draws the background as white before everything else
-
+        scene.clearColor = new BABYLON.Color4(0, 0, 0, 0); //Draws the background as transparent before everything else
+        
+        let modelName = "";
+        let cameraStatus = false
+        let meshCollect = []; // List of mesh components
+        let toggleGroups = []; // List of list with hideable components
 
         
-        // // Our built-in 'sphere' shape.
+        // // Babylonjs built-in 'sphere' shape. Usefull for debugging positions
         // var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 0.5, segments: 32}, scene);
 
         // // Move the sphere upward 1/2 its height
@@ -49,39 +50,46 @@ window.addEventListener("DOMContentLoaded", function() {
 
         ////////////////////////////////////////////////////////////////////////////////////////////
 
-        this.changeMaterial = function(img){ // Gerneralised funciton for changing material
-            // console.log(img)
-            meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model (Checknull removes null components)
-                if (mesh.name != null){ // If mesh has name        
-                    // Reads the name of each part and changes the material if a fabric is found
-                    if(mesh.name.split("_")[1] == "Metal"){
-                        // Metal found, add shiny metal effect, else remove all shine
-                    }else if(mesh.name.split("_")[1] == "Fabric"){
-                        // Fabric found
-                        // console.log("Found fabric: "+mesh.material.name); 
-                        
-                        const mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
-                        const newMat = new BABYLON.Texture(img, scene); // Find desired texture image
-                        // mat.bumpTexture = newMat;
-                        mat.albedoTexture = newMat; // Apply texture
-                        mat.albedoTexture.uScale = 1; // Scale texture
-                        mat.albedoTexture.vScake = 1; // Scale texture
-                        mat.metallic = 0.1; // Set metallic reflection
-                        mat.roughness = 1; // Set roughness for ammount of reflection
-                        mesh.material = mat; // Apply material to mesh
-                    }
-                    else{ //Anything but fabrics and metals
-                        try{
-                            // Do nothing
-                        }catch(err){
-                            console.log("Error in material set: \n"+err)
+        this.changeMaterial = function(img){ // Gerneralised function for changing material
+            meshColl = this.getMeshCollect;
+            return new Promise((resolve, reject) => {
+                const mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
+                const texture = new BABYLON.Texture(img, scene, false, false, 11, function() {
+                    // mat.bumpTexture = newMat;
+                    mat.albedoTexture = texture; // Apply texture
+                    mat.albedoTexture.uScale = 1; // Scale texture
+                    mat.albedoTexture.vScake = 1; // Scale texture
+                    mat.metallic = 0.1; // Set metallic reflection
+                    mat.roughness = 1; // Set roughness for ammount of reflection
+                    
+                    meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model (Checknull removes null components)
+                        if (mesh.name != null){ // If mesh has name        
+                            
+                            // Reads the name of each part and changes the material if a fabric is found
+                            if(mesh.name.split("_")[1] == "Metal"){
+                                // Metal found, add shiny metal effect, else remove all shine
+                                mesh.material.metallic = 0.8;
+                                mesh.material.roughness = 0.4;
+                            }else if(mesh.name.split("_")[1] == "Fabric"){
+                                // Fabric found
+                                mesh.material = mat; // Apply material to mesh
+                            }
+                            else{ //Anything but fabrics and metals
+                                try{
+                                    mesh.material.metallic = null;
+                                    mesh.material.roughness = 0.5;
+                                }catch(err){
+                                    reject("Error in material set: \n"+err)
+                                }
+                            }
                         }
-                    }
-                }
+                    })
+                }); // Find desired texture image
+                resolve()
             })
         }
 
-        this.toggleComponent1 = function(num) { // Old code for toggling components, using hardcoded component names
+        this.toggleComponent1 = function(num) { // OLD code for toggling components, using hardcoded component names
             if(num == 0){ //Armrest
                 meshCollect.filter(checkNull).forEach(function(mesh){
                     if (mesh.name != null){                    
@@ -110,7 +118,6 @@ window.addEventListener("DOMContentLoaded", function() {
                 // page.evaluate("BABYLON.Engine.LastCreatedScene.activeCamera.alpha = 1.4;");
                 // await page.screenshot({path: './public/example.png'});
             }
-
         };
 
         this.toggleComponent = function(meshGroup) { // Toggle the given meshGroup (component) generating buttons automatically
@@ -128,30 +135,31 @@ window.addEventListener("DOMContentLoaded", function() {
                 false, // AntiAliasing
                 'Screenshot.png' // Filename and type
                 )
-            console.log("Inside screenshot function");
         }
  
-        this.exportModel = function(){ // Export and download current mesh
+        this.exportModel = function(){ // Export and download current scene as gltf (Or glb if .GLBAsync() is used)
             meshCollect.shift()
             // console.log(meshCollect);
-            const meshes = meshCollect.slice(31, 100);
-            console.log(meshes);    
-            // var obj = BABYLON.OBJExport.OBJ(box, false, "", true);
+            model_name = getModelName().split(".")[0]; // Get name of model and removing .babylonjs.json
+            console.log(`Exporting model: ${model_name}.gltf`)
 
-            // console.log(obj);
-            // const obj = BABYLON.OBJExport.OBJ(meshes, false, "", true);
-            // const mtl = OBJExport.MTL(array_Meshes)
-
-            // const names = ['object.obj', 'material.mtl']
-            // const blobs = [new Blob([obj], { type: 'octet/stream' }), new Blob([mtl], { type: 'octet/stream' })]
-            // downloadBlob(BABYLON.GLTF2Export.GLTFAsync(meshes, "objExport.obj"));
-            // BABYLON.GLTF2Export.GLTFAsync(scene, "gltfExport.gltf");
-            // gltf.downloadFiles();
-
-            // Initializer code...
-            BABYLON.GLTF2Export.GLBAsync(scene, "fileName").then((glb) => {
-                glb.downloadFiles();
+            let options = { // meshes to not be exported ( hidden headrest, models etc.)
+                shouldExportNode: function (node) {
+                    return node.isEnabled(); // All invisible entities should not be exported
+                },
+                // shouldExportNode: function (node) {
+                //     return node !== visible_meshes[1]
+                // },
+            }
+            BABYLON.GLTF2Export.GLBAsync(scene, `${model_name}.gltf`, options).then((gltf) => { 
+                // When finished exporting, download
+                gltf.downloadFiles();
             });
+
+
+            // Method for exporting in .obj format, which does not by default have materials, and will not let you keep component names
+            // downloadBlob([BABYLON.OBJExport.OBJ(meshCollect, false, "", true)], "objExport.obj"); // Making object and inserting it into downloadBlob
+
         }
 
         this.moveCamera = (direction) => {
@@ -160,7 +168,6 @@ window.addEventListener("DOMContentLoaded", function() {
             if (direction === "Iso") {camera.setPosition(new BABYLON.Vector3(-1.2, 1.5, -1.23))};
             if (direction === "Back") {camera.setPosition(new BABYLON.Vector3(0, 1, 1.93))};
             camera.target = new BABYLON.Vector3(0, 0.5, 0);
-            console.log(camera.fov)
         }
 
         this.setCamera = (cam_pos, tar_pos, fov) => {
@@ -172,27 +179,24 @@ window.addEventListener("DOMContentLoaded", function() {
             x_t = tar_pos["x"];
             y_t = tar_pos["y"];
             z_t = tar_pos["z"];
-            console.log(`${x} ` + `${y} ` + `${z}`)
-            console.log(`${x_t} ` + `${y_t} ` + `${z_t}`)
             camera.setPosition(new BABYLON.Vector3(x, y, z))
-            // camera.setTarget(new BABYLON.Vector3(0, 0.5, 0))
-
             camera.setTarget(new BABYLON.Vector3(x_t, y_t, z_t))
-            console.log(camera.fov)
-            console.log("fov: " + BABYLON.Tools.ToRadians(fov))
             camera.fov = BABYLON.Tools.ToRadians(fov);
         }
         
         
         this.freeCamera = () => {
-            // camera.attachControl(canvas, true); // Allows camera input in game loop
             if (cameraStatus){camera.detachControl();} // Remove camera control
             else{camera.attachControl(canvas, true);} // Add camera control
+            camera.setTarget(new BABYLON.Vector3(0, 0.5, 0));
             cameraStatus = !cameraStatus;
             camera.fov = 0.610865 // 35 degree fov to match sketchup view. Helps when making translation algorithm.
         }
 
-        const getPos = (obj) => obj.position;
+        const getPos = (obj) => obj.position; // Function for getting position of object
+
+        this.getModelName = () => modelName; // Function for reading the name of the currently viewed model
+
 
         function checkNull(mesh) {
             return mesh.material != null;
@@ -210,30 +214,31 @@ window.addEventListener("DOMContentLoaded", function() {
             link.click();
         }
 
-        this.cleanScene = function(){ // Function for removing all elements of a scene (All meshes in meshCollect)
+        this.cleanScene = () => { // Function for removing all elements of a scene (All meshes in meshCollect)
             meshCollect.forEach(function(mesh){ // Every mesh in meshCollect
                 mesh.dispose();
                 mesh = null; // Get garbage collector to pick up the mesh 
             })
         }
 
-
         this.loadModel = function(model){
             //Remove current buttons from component control by removing all elements in div
             const divParent = document.getElementById("component-control");
             const divCam = document.getElementById("mod-camera-control");
+            // Function for removing all elements in selected div
             removeAllChildNodes(divCam);
             removeAllChildNodes(divParent);
 
             // Remove old mesh in model
             cleanScene();
 
-
+            // Import mesh (model) with function to be run when import is done
             BABYLON.SceneLoader.ImportMesh("","Models/", 
             model,
             scene,
             function(newMeshes){ // newMeshes is an array of all submeshes
                 toggleGroups = [];
+                modelName = model;
                 newMeshes.filter(checkNull).forEach(function(mesh){
                     // For every component(mesh) in model
                     mesh.receiveShadows = true; // Allow mesh to have shadows
@@ -242,8 +247,7 @@ window.addEventListener("DOMContentLoaded", function() {
                         // Reads the name of each part and changes the material if a fabric is found
                         if(mesh.name.split("_")[1] == "Metal"){
                             // Metal found, add shiny metal effect, else remove all shine
-                            mesh.material.metallic = 5;
-                            // mesh.material.ref
+                            mesh.material.metallic = 0.8;
                             mesh.material.roughness = 0.4;
                         }else if(mesh.name.split("_")[1] == "Fabric"){
                             // Fabric found
@@ -259,7 +263,7 @@ window.addEventListener("DOMContentLoaded", function() {
                             }
                         }
                     }
-    
+                    
                     // Generate buttons for toggling visibility of components based on group names
                     // Add component totoggleable list list
                     toggleable = mesh.name.split("_")[2].split(".")[0];
@@ -312,7 +316,6 @@ window.addEventListener("DOMContentLoaded", function() {
 
                 // get JSON name
                 j_name = "Models/" + model.split(".")[0] + "_exported.json";
-                console.log("name: "+j_name);
             
                 // Generate camera buttons based on model JSON
                 let requested = new XMLHttpRequest();
@@ -320,7 +323,6 @@ window.addEventListener("DOMContentLoaded", function() {
                 requested.open('GET', j_name);
                 requested.onload = function() {
                     const model_json = requested.response;
-                    console.log(model_json);
 
                     // Setup button
                     const divComp = document.getElementById("mod-camera-control"); // Pointer to correct div 
@@ -331,7 +333,6 @@ window.addEventListener("DOMContentLoaded", function() {
                         const cam_pos = views[view]["eye"];
                         const target_pos = views[view]["target"];
                         const fov = views[view]["fov"];
-                        console.log(views)
 
                         // Make button with name and input set
                         //Generate HTML button
@@ -340,7 +341,6 @@ window.addEventListener("DOMContentLoaded", function() {
                         btn.innerHTML = view;
                         btn.classList.add("button");
                         btn.onclick = function(){
-                            console.log(view + cam_pos["x"]);
                             setCamera(cam_pos, target_pos, fov);
                         };
                         divComp.appendChild(btn);
@@ -367,6 +367,7 @@ window.addEventListener("DOMContentLoaded", function() {
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
             toggleGroups = [];
+            modelName = "Kinnarps_lowback.babylon.json";
             newMeshes.filter(checkNull).forEach(function(mesh){
                 // For every component(mesh) in model
                 //subMesh = mesh;
@@ -380,8 +381,7 @@ window.addEventListener("DOMContentLoaded", function() {
                     // Reads the name of each part and changes the material if a fabric is found
                     if(mesh.name.split("_")[1] == "Metal"){
                         // Metal found, add shiny metal effect, else remove all shine
-                        mesh.material.metallic = 5;
-                        // mesh.material.ref
+                        mesh.material.metallic = 0.8;
                         mesh.material.roughness = 0.4;
                     }else if(mesh.name.split("_")[1] == "Fabric"){
                         // Fabric found
@@ -453,13 +453,11 @@ window.addEventListener("DOMContentLoaded", function() {
         
         // Generate camera buttons based on model JSON
         const raw_json = "Models/Kinnarps_lowback_exported.json";
-        console.log("name: " + raw_json);
         let request = new XMLHttpRequest();
         request.responseType = 'json';
         request.open('GET', raw_json);
         request.onload = function() {
             const model_json = request.response;
-            console.log(model_json)
 
             // Setup button
             const divComp = document.getElementById("mod-camera-control"); // Pointer to correct div 
@@ -478,7 +476,6 @@ window.addEventListener("DOMContentLoaded", function() {
                 btn.innerHTML = view;
                 btn.classList.add("button");
                 btn.onclick = function(){
-                    console.log(view + cam_pos["x"])
                     setCamera(cam_pos, target_pos, fov);
                 }
                 divComp.appendChild(btn);

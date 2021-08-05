@@ -1,15 +1,16 @@
 window.addEventListener("DOMContentLoaded", async function() { 
     const canvas = document.getElementById("canvas5"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
     const engine = new BABYLON.Engine(canvas, true);
-    // await engine.initAsync();
 
-    const meshCollect = []; // List of mesh components
-    let toggleGroups = []; // List of list with hideable components
-
+    
     const createScene = function () {
         const scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
         engine.enableOfflineSupport = false; // For 3D models, disables offline file errors
-        scene.clearColor = new BABYLON.Color3.White(); //Draws the background as white before everything else
+        scene.clearColor = new BABYLON.Color4(0,0,0,0); //Draws the background as white before everything else
+        
+        let modelName = "";
+        let meshCollect = []; // List of mesh components
+        let toggleGroups = []; // List of list with hideable components
 
         // Orbiting camera
         const camera = new BABYLON.ArcRotateCamera("arcCamera", 
@@ -40,36 +41,41 @@ window.addEventListener("DOMContentLoaded", async function() {
 
 
         this.changeMaterial = function(img){ // Gerneralised funciton for changing material
-            // console.log(img)
-            meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model (Checknull removes null components)
-                if (mesh.name != null){ // If mesh has name        
-                    // Reads the name of each part and changes the material if a fabric is found
-                    if(mesh.name.split("_")[1] == "Metal"){
-                        // Metal found, add shiny metal effect, else remove all shine
-                    }else if(mesh.name.split("_")[1] == "Fabric"){
-                        // Fabric found
-                        // console.log("Found fabric: "+mesh.material.name); 
-                        
-                        const mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
-                        const newMat = new BABYLON.Texture(img, scene); // Find desired texture image
-                        // mat.bumpTexture = newMat;
-                        mat.albedoTexture = newMat; // Apply texture
-                        mat.albedoTexture.uScale = 1; // Scale texture
-                        mat.albedoTexture.vScake = 1; // Scale texture
-                        mat.metallic = 0.1; // Set metallic reflection
-                        mat.roughness = 1; // Set roughness for ammount of reflection
-                        mesh.material = mat; // Apply material to mesh
-                    }
-                    else{ //Anything but fabrics and metals
-                        try{
-                            // Do nothing
-                        }catch(err){
-                            console.log("Error in material set: \n"+err)
+            meshColl = this.getMeshCollect;
+            return new Promise((resolve, reject) => {
+                const mat = new BABYLON.PBRMaterial("pbr", scene); // Set default materialtype in case default material does not work (.dwg source)
+                const texture = new BABYLON.Texture(img, scene, false, false, 10, function() {
+                    // mat.bumpTexture = newMat;
+                    mat.albedoTexture = texture; // Apply texture
+                    mat.albedoTexture.uScale = 1; // Scale texture
+                    mat.albedoTexture.vScake = 1; // Scale texture
+                    mat.metallic = 0.1; // Set metallic reflection
+                    mat.roughness = 1; // Set roughness for ammount of reflection
+        
+                    meshCollect.filter(checkNull).forEach(function(mesh){ // Function for going over each part of the model (Checknull removes null components)
+                        if (mesh.name != null){ // If mesh has name        
+        
+                            // Reads the name of each part and changes the material if a fabric is found
+                            if(mesh.name.split("_")[1] == "Metal"){
+                                // Metal found, add shiny metal effect, else remove all shine
+                            }else if(mesh.name.split("_")[1] == "Fabric"){
+                                // Fabric found
+                                mesh.material = mat; // Apply material to mesh
+                            }
+                            else{ //Anything but fabrics and metals
+                                try{
+                                    // Do nothing
+                                }catch(err){
+                                    reject("Error in material set: \n"+err)
+                                }
+                            }
                         }
-                    }
-                }
+                    })
+                }); // Find desired texture image
+                resolve()
             })
         }
+
         this.toggleComponent = function(meshGroup) { // Toggle the given meshGroup (component) generating buttons automatically
             meshGroup.filter(checkNull).forEach(function(mesh){
                 mesh.setEnabled(mesh.isEnabled() ? false : true); 
@@ -143,6 +149,8 @@ window.addEventListener("DOMContentLoaded", async function() {
             model,
             scene,
             function(newMeshes){ // newMeshes is an array of all submeshes
+
+                modelName = model
                 toggleGroups = [];
                 newMeshes.filter(checkNull).forEach(function(mesh){
                     // For every component(mesh) in model
@@ -205,7 +213,11 @@ window.addEventListener("DOMContentLoaded", async function() {
                 parent.removeChild(parent.firstChild);
             }
         }
-
+        
+        this.getModelName = () => modelName;
+        
+        this.getMeshCollect = () => meshCollect;
+        
         // Load in 3D model (name, folder, .babylon file,)
         // BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa.babylon.json",
         // BABYLON.SceneLoader.ImportMesh("","Models/","EkornesSofa2-1.babylon.json",
@@ -213,6 +225,8 @@ window.addEventListener("DOMContentLoaded", async function() {
         scene,
         function(newMeshes){ // newMeshes is an array of all submeshes
             toggleGroups = [];
+            meshCollect = newMeshes;
+            modelName = "Kinnarps_lowback.babylon.json";
             newMeshes.filter(checkNull).forEach(function(mesh){
                 // For every component(mesh) in model
                 // add components into array, this allows one to create a new mesh with the complete chair (for shadows, it is not ideal for manipulation)
