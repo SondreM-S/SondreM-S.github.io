@@ -1,7 +1,6 @@
 window.addEventListener("DOMContentLoaded", function() { 
     const canvas = document.getElementById("canvas1"); // Bring in the canvas made in canvas id, canvas is the window for the application(?)
-    const engine = new BABYLON.Engine(canvas, true);
-
+    const engine = new BABYLON.Engine(canvas, true);    
     
     const createScene = function () {
         const scene = new BABYLON.Scene(engine); // Scene = level/world/scene using set up "engine"
@@ -21,7 +20,6 @@ window.addEventListener("DOMContentLoaded", function() {
         // sphere.position.x = 0;
         // sphere.position.y = 1;
         // sphere.position.z = 0;
-
 
         // Orbiting camera
         const camera = new BABYLON.ArcRotateCamera("arcCamera", 
@@ -136,12 +134,17 @@ window.addEventListener("DOMContentLoaded", function() {
                 'Screenshot.png' // Filename and type
                 )
         }
+
+        this.runHeadlessRender = () => {
+            // Function for sending the current model and setting to the headless renderer for rendering all 
+            runHeadless()
+        }
  
-        this.exportModel = function(){ // Export and download current scene as gltf (Or glb if .GLBAsync() is used)
+        this.exportModel = () => { // Export and download current scene as gltf (Or glb if .GLBAsync() is used)
             meshCollect.shift()
             // console.log(meshCollect);
             model_name = getModelName().split(".")[0]; // Get name of model and removing .babylonjs.json
-            console.log(`Exporting model: ${model_name}.gltf`)
+            console.log(`Exporting model: ${model_name}.glb`)
 
             let options = { // meshes to not be exported ( hidden headrest, models etc.)
                 shouldExportNode: function (node) {
@@ -151,12 +154,24 @@ window.addEventListener("DOMContentLoaded", function() {
                 //     return node !== visible_meshes[1]
                 // },
             }
-            BABYLON.GLTF2Export.GLBAsync(scene, `${model_name}.gltf`, options).then((gltf) => { 
+            BABYLON.GLTF2Export.GLBAsync(scene, `${model_name}.glb`, options).then((gltf) => { 
                 // When finished exporting, download
                 gltf.downloadFiles();
             });
+            // Method for exporting in .obj format, which does not by default have materials, and will not let you keep component names
+            // downloadBlob([BABYLON.OBJExport.OBJ(meshCollect, false, "", true)], "objExport.obj"); // Making object and inserting it into downloadBlob
+        }
+         
+        this.exportModelFull = () => { // Export and download current scene as gltf (Or glb if .GLBAsync() is used)
+            meshCollect.shift()
+            // console.log(meshCollect);
+            model_name = getModelName().split(".")[0]; // Get name of model and removing .babylonjs.json
+            console.log(`Exporting model: ${model_name}.glb`)
 
-
+            BABYLON.GLTF2Export.GLBAsync(scene, `${model_name}.glb`).then((gltf) => { 
+                // When finished exporting, download
+                gltf.downloadFiles();
+            });
             // Method for exporting in .obj format, which does not by default have materials, and will not let you keep component names
             // downloadBlob([BABYLON.OBJExport.OBJ(meshCollect, false, "", true)], "objExport.obj"); // Making object and inserting it into downloadBlob
 

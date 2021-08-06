@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BabylonJS Demo01</title>
+        <script src="https://cdn.babylonjs.com/babylon.max.js"></script>  <!--Brings in the babylon node directly from the babylon page. .max.js brings in ALL of Babylon and might be reduced at a later date-->
+        <script src="https://cdn.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body class="clearfix">
+        <script src="babylonEngine.js"></script> <!--Javascript folder containing the babylonjs scene and engine.-->
+        <script src="./headless/index.js"></script> <!--Javascript for puppeteer and headless renders-->
+        <div class="canvas2" id = "control-panel"> <!--div containing the control panel and buttons used for manipulating the babylon code-->
+            <div class="model-control" id = "model-control">
+                <h2>Select Model</h2>
+                <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
+                <input type="button" onClick="changeFabric()" value="Change Textures"> -->
+                <div class="dropdown">
+                    <button class="button">
+                        Change Model
+                    </button>
+                    
+                    <div class="dropdown-content">
+                        <a href="#" onClick='loadModel("Kinnarps_lowback.babylon.json")'>
+                            Kinnarps lowback</a>
+                        <a href="#" onClick='loadModel("EkornesSofa2-1.babylon.json")'>
+                            Ekornes Stressless</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Materials" id = "materials">
+                <h2>Material Control</h2>
+                <!-- <button class="button" onClick="changeLight()">Change Lighting</button>
+                <input type="button" onClick="changeFabric()" value="Change Textures"> -->
+                <div class="dropdown">
+                    <button class="button">
+                        Change Fabric
+                    </button>
+                    
+                    <div class="dropdown-content">
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_01.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_01.jpg" 
+                            width="40" height="40">Capture_01</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_04.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_04.jpg" 
+                            width="40" height="40">Capture_04</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_05.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_05.jpg"
+                            width="40" height="40">Capture_05</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_09.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_09.jpg"
+                            width="40" height="40">Capture_09</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_13.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_13.jpg"
+                            width="40" height="40">Capture_13</a>
+                        <a href="#" onClick='changeMaterial("Models/Materials/Fabrics/Capture_32.jpg")'>
+                            <img src= "Models\Materials\Fabrics\Capture_32.jpg"
+                            width="40" height="40">Capture_32</a>
+                    </div>
+                </div>
+            </div>
+            <div class="component-control" id = "component-control">
+                <!-- Div for containing component toggling buttons, created by javascript on demand -->
+            </div>
+            <div class="export-control" id = "export-control">
+                <h2>Exports</h2>
+                <button class="button" id="screenshotBtn" onClick="takeScreenshot()">Take Screenshot</button> <!--Take a screenshot and export a .jpg download-->
+                <button class="button" onClick="runHeadlessRender()">Export Screenshot Variants</button> <!--Run headless render in background and give .zip file-->
+                <button class="button" onClick="exportModel()">Export Model</button> <!--Download .glb of mesh-->
+                <button class="button" onClick="exportModelFull()">Export Full Model</button> <!--Download -glb of entire model-->
+
+                <!-- <button class="button" onClick="toggleComponent(1)">Toggle Headrest</button> -->
+            </div>
+            <div class="camera-control" id="camera-control">
+                <h2>Camera</h2>
+                <button class="button" id="freeCamBtn" onClick="freeCamera()">Free Camera Toggle</button>
+                <div class = "camera-control" id="mod-camera-control"></div>
+                <!-- <button class="button" id="backBtn" ocClick="moveCamera('Back')">Back</button> -->
+            </div>
+        </div>
+        <canvas id="canvas1"></canvas> <!--Canvas containing babylonjs scene-->
+    </body>
+</html>
