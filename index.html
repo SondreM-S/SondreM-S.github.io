@@ -9,7 +9,7 @@
 
 <body class="clearfix">
     <script src="babylonEngine.js"></script> <!--Javascript folder containing the babylonjs scene and engine.-->
-    <script src="./headless/index.js"></script> <!--Javascript for puppeteer and headless renders-->
+    <!-- <script type="module" src="./headless/index.js"></script> Javascript for puppeteer and headless renders -->
     
     <canvas id="canvas1" width="826" height="967" touch-action="none" style="touch-action: none;outline: none;" tabindex="1"></canvas> <div class="canvas2" id="control-panel"> 
         <div class="model-control panel" id="model-control">
@@ -30,7 +30,10 @@
                 </div>
             </div>
         </div>
-        <div class="Materials panel" id="materials" >
+        <div class="feature_div panel" id="feature_div"> <!--Controllable features made by JSON for model-->
+
+        </div>
+        <!-- <div class="Materials panel" id="materials" >
             <h2>Material Control</h2>
             
             <div class="dropdown" >
@@ -54,10 +57,10 @@
                 </div>
             </div>
         </div>
-        <div class="component-control panel" id="component-control">
+        <div class="component-control panel" id="component-control"> -->
             <!-- <h2>Component Control</h2> -->
             <!-- <button id="compContButton" class="button">Headrest</button><button id="compContButton" class="button">Armrest</button> -->
-        </div>
+        <!-- </div> --> 
         <div class="camera-control panel" id="camera-control">
             <h2>Camera</h2>
 <div class="mb-1">

@@ -1,1 +1,588 @@
-{"data":{"brand":{"id":"kinnarps","name":"Kinnarps","theme":{"feature_image":"https://demo.xtrade.no/media/standard_kinnarps/9F486675BF9F9CA0F05A1DD3447A6EF8/nextoffice_banner03.jpg","logo":"https://demo.xtrade.no/media/standard_kinnarps/4BD3CE602462440B125D792CED35B771/logo.svg"}},"master_product":{"external_id":"capella","name":"Capella","description":"Capella er en ny type arbeidsstol. Designet for å holde kroppen i bevegelse. Å sitte riktig handler om å bevege kroppen din. I hjertet av Capella er en ny innovativ FreeMotion-mekanisme. Det gir godt balanserte mikrobevegelser i setet og fremmer aktiv sitting. Alt for å hjelpe deg med å føle deg bra. \n\nMed sine unike egenskaper kombinerer Capella alt Kinnarps vet om hva som er viktigst når det gjelder arbeidsstoler. Du sitter med optimal ergonomisk komfort. Og den har mange justeringsmuligheter slik at du kan finne den sittende posisjonen som passer deg best. De intuitive kontrollene gjør det også mulig å enkelt justere stolen etter eget ønske.","images":[{"type":"GS1_A_Product_Image_Web","origin_url":"https://drive.google.com/uc?export=download&id=1D5H_AXG2OHPM5EUXg1L3w7vB-D_CNejM"},{"type":"GS1_A_Product_Image_Web","origin_url":"https://www.kinnarps.com/contentassets/5237728cbaa6488788c63228aa3290d7/herocapella.jpg?preset=text-on-imageLg2x"}],"feature_configuration":{"base_price":{"static":{"value":7350,"currency":"SEK"}},"preview":[{"view":"front","components":[]}],"features":[{"id":"edition","name":"Edition","options":[{"id":"black","name":"Black edition","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b1.jpg"},{"id":"silver","name":"Silver edition","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b2.jpg"},{"id":"polished","name":"Polished edition","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b3.jpg"},{"id":"white","name":"White edition","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b4.jpg"}]},{"id":"back","name":"Back","options":[{"id":"low","name":"Low back","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c1.jpg"},{"id":"medium-high","name":"Medium-High back","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c2.jpg"}]},{"id":"armrest","name":"Armrest","options":[{"id":"no_armrest","name":"No Armrest","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e1.jpg"},{"id":"with_armrest","name":"With Armrest","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e2.jpg"}]},{"id":"headrest","name":"Headrest","options":[{"id":"no_headrest","name":"No Headrest","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d1.jpg"},{"id":"with_headrest","name":"With Headrest","image":"https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d2.jpg"}]},{"id":"fabric","name":"Fabric","option_groups":[{"name":"Gabriel","options":[{"id":"Capture_00","name":"Capture 01","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_01.jpg"},{"id":"Capture_01","name":"Capture 02","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_02.jpg"},{"id":"Capture_02","name":"Capture 03","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_03.jpg"},{"id":"Capture_03","name":"Capture 04","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_04.jpg"},{"id":"Capture_04","name":"Capture 05","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_05.jpg"},{"id":"Capture_05","name":"Captu06 05","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_05.jpg"},{"id":"Capture_06","name":"Capture 07","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_07.jpg"},{"id":"Capture_07","name":"Capture 08","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_08.jpg"},{"id":"Capture_08","name":"Capture 09","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_09.jpg"},{"id":"Capture_09","name":"Capture 10","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_10.jpg"},{"id":"Capture_10","name":"Capture 11","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_11.jpg"},{"id":"Capture_11","name":"Capture 12","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_12.jpg"},{"id":"Capture_12","name":"Capture 13","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_13.jpg"},{"id":"Capture_13","name":"Capture 14","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_14.jpg"},{"id":"Capture_14","name":"Capture 15","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_15.jpg"},{"id":"Capture_15","name":"Capture 16","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_16.jpg"},{"id":"Capture_16","name":"Capture 17","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_17.jpg"},{"id":"Capture_17","name":"Capture 18","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_18.jpg"},{"id":"Capture_18","name":"Capture 19","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_19.jpg"},{"id":"Capture_19","name":"Capture 20","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_20.jpg"},{"id":"Capture_20","name":"Capture 21","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_21.jpg"},{"id":"Capture_21","name":"Capture 22","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_22.jpg"},{"id":"Capture_22","name":"Capture 23","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_23.jpg"},{"id":"Capture_23","name":"Capture 24","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_24.jpg"},{"id":"Capture_24","name":"Capture 25","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_25.jpg"},{"id":"Capture_25","name":"Capture 26","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_26.jpg"},{"id":"Capture_26","name":"Capture 27","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_27.jpg"},{"id":"Capture_27","name":"Capture 28","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_28.jpg"},{"id":"Capture_28","name":"Capture 29","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_29.jpg"},{"id":"Capture_29","name":"Capture 30","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_30.jpg"},{"id":"Capture_30","name":"Capture 31","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_31.jpg"},{"id":"Capture_31","name":"Capture 32","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_32.jpg"},{"id":"Capture_32","name":"Capture 33","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_33.jpg"},{"id":"Capture_33","name":"Capture 34","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_34.jpg"},{"id":"Capture_34","name":"Capture 35","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_35.jpg"},{"id":"Capture_35","name":"Capture 36","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_36.jpg"},{"id":"Capture_36","name":"Capture 37","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_37.jpg"},{"id":"Capture_37","name":"Capture 38","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_38.jpg"},{"id":"Capture_38","name":"Capture 39","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_39.jpg"},{"id":"Capture_39","name":"Capture 40","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_40.jpg"},{"id":"Capture_40","name":"Capture 41","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_41.jpg"},{"id":"Capture_41","name":"Capture 42","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_42.jpg"},{"id":"Capture_42","name":"Capture 43","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_43.jpg"}]},{"name":"Gudbrandsdalen uldvarefabrik","options":[{"id":"5042-140-110","name":"Amdal 110","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-110.jpg"},{"id":"5042-140-122","name":"Amdal 122","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-122.jpg"},{"id":"5042-140-125","name":"Amdal 125","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-125.jpg"},{"id":"5042-140-130","name":"Amdal 130","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-130.jpg"},{"id":"5042-140-155","name":"Amdal 155","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-155.jpg"},{"id":"5042-140-165","name":"Amdal 165","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-165.jpg"},{"id":"5042-140-180","name":"Amdal 180","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-180.jpg"},{"id":"5042-140-200","name":"Amdal 200","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-200.jpg"},{"id":"5042-140-325","name":"Amdal 325","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-325.jpg"},{"id":"5042-140-350","name":"Amdal 350","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-350.jpg"},{"id":"5042-140-360","name":"Amdal 360","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-360.jpg"},{"id":"5042-140-365","name":"Amdal 365","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-365.jpg"},{"id":"5042-140-425","name":"Amdal 425","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-425.jpg"},{"id":"5042-140-480","name":"Amdal 480","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-480.jpg"},{"id":"5042-140-545","name":"Amdal 545","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-545.jpg"},{"id":"5042-140-580","name":"Amdal 580","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-580.jpg"},{"id":"5042-140-625","name":"Amdal 625","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-625.jpg"},{"id":"5042-140-675","name":"Amdal 675","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-675.jpg"},{"id":"5042-140-700","name":"Amdal 700","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-700.jpg"},{"id":"5042-140-725","name":"Amdal 725","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-725.jpg"},{"id":"5042-140-730","name":"Amdal 730","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-730.jpg"},{"id":"5042-140-745","name":"Amdal 745","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-745.jpg"},{"id":"5042-140-750","name":"Amdal 750","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-750.jpg"},{"id":"5042-140-760","name":"Amdal 760","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-760.jpg"},{"id":"5042-140-825","name":"Amdal 825","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-825.jpg"},{"id":"5042-140-885","name":"Amdal 885","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-885.jpg"},{"id":"5042-140-915","name":"Amdal 915","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/amdal-915.jpg"},{"id":"5042-140-920","name":"Amdal 920","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/amdal-920.jpg"},{"id":"5042-140-935","name":"Amdal 935","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-935.jpg"},{"id":"5042-140-980","name":"Amdal 980","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-980.jpg"},{"id":"5095-140-110","name":"Bardal 110","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-110.jpg"},{"id":"5095-140-160","name":"Bardal 160","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-160.jpg"},{"id":"5095-140-170","name":"Bardal 170","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-170.jpg"},{"id":"5095-140-190","name":"Bardal 190","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-190.jpg"},{"id":"5095-140-220","name":"Bardal 220","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-220.jpg"},{"id":"5095-140-310","name":"Bardal 310","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-310.jpg"},{"id":"5095-140-340","name":"Bardal 340","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-340.jpg"},{"id":"5095-140-380","name":"Bardal 380","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-380.jpg"},{"id":"5095-140-420","name":"Bardal 420","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-420.jpg"},{"id":"5095-140-440","name":"Bardal 440","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-440.jpg"},{"id":"5095-140-460","name":"Bardal 460","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-460.jpg"},{"id":"5095-140-480","name":"Bardal 480","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-480.jpg"},{"id":"5095-140-620","name":"Bardal 620","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-620.jpg"},{"id":"5095-140-630","name":"Bardal 630","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-630.jpg"},{"id":"5095-140-660","name":"Bardal 660","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-660.jpg"},{"id":"5095-140-670","name":"Bardal 670","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-670.jpg"},{"id":"5095-140-680","name":"Bardal 680","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-680.jpg"},{"id":"5095-140-710","name":"Bardal 710","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-710.jpg"},{"id":"5095-140-720","name":"Bardal 720","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-720.jpg"},{"id":"5095-140-730","name":"Bardal 730","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-730.jpg"},{"id":"5095-140-740","name":"Bardal 740","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-740.jpg"},{"id":"5095-140-750","name":"Bardal 750","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-750.jpg"},{"id":"5095-140-770","name":"Bardal 770","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-770.jpg"},{"id":"5095-140-780","name":"Bardal 780","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-780.jpg"},{"id":"5095-140-810","name":"Bardal 810","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-810.jpg"},{"id":"5095-140-830","name":"Bardal 830","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-830.jpg"},{"id":"5095-140-860","name":"Bardal 860","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-860.jpg"},{"id":"5095-140-890","name":"Bardal 890","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-890.jpg"},{"id":"5095-140-970","name":"Bardal 970","image":"https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-970.jpg"}]}]}]},"camera_views":{"Front":{"eye":{"x":-0.001,"y":1.377,"z":-2.88},"target":{"x":0.109,"y":-2.5,"z":10.474},"fov":35.0},"Iso":{"eye":{"x":-2.109,"y":1.899,"z":-1.657},"target":{"x":7.559,"y":-4.344,"z":6.15},"fov":35.0},"Left":{"eye":{"x":-3.026,"y":0.798,"z":-0.001},"target":{"x":10.825,"y":-0.424,"z":0.255},"fov":35.0},"Back":{"eye":{"x":-0.007,"y":0.803,"z":3.075},"target":{"x":0.0,"y":-0.452,"z":-10.775},"fov":35.0},"Right":{"eye":{"x":3.016,"y":0.837,"z":0.002},"target":{"x":-10.817,"y":-0.572,"z":0.218},"fov":35.0}}}}}
+{
+    "data": {
+        "brand": {
+            "id": "kinnarps",
+            "name": "Kinnarps",
+            "theme": {
+                "feature_image": "https://demo.xtrade.no/media/standard_kinnarps/9F486675BF9F9CA0F05A1DD3447A6EF8/nextoffice_banner03.jpg",
+                "logo": "https://demo.xtrade.no/media/standard_kinnarps/4BD3CE602462440B125D792CED35B771/logo.svg"
+            }
+        },
+        "master_product": {
+            "external_id": "capella",
+            "name": "Capella",
+            "description": "Capella er en ny type arbeidsstol. Designet for å holde kroppen i bevegelse. Å sitte riktig handler om å bevege kroppen din. I hjertet av Capella er en ny innovativ FreeMotion-mekanisme. Det gir godt balanserte mikrobevegelser i setet og fremmer aktiv sitting. Alt for å hjelpe deg med å føle deg bra. \n\nMed sine unike egenskaper kombinerer Capella alt Kinnarps vet om hva som er viktigst når det gjelder arbeidsstoler. Du sitter med optimal ergonomisk komfort. Og den har mange justeringsmuligheter slik at du kan finne den sittende posisjonen som passer deg best. De intuitive kontrollene gjør det også mulig å enkelt justere stolen etter eget ønske.",
+            "images": [{
+                    "type": "GS1_A_Product_Image_Web",
+                    "origin_url": "https://drive.google.com/uc?export=download&id=1D5H_AXG2OHPM5EUXg1L3w7vB-D_CNejM"
+                }, {
+                    "type": "GS1_A_Product_Image_Web",
+                    "origin_url": "https://www.kinnarps.com/contentassets/5237728cbaa6488788c63228aa3290d7/herocapella.jpg?preset=text-on-imageLg2x"
+                }
+            ],
+            "feature_configuration": {
+                "base_price": {
+                    "static": {
+                        "value": 7350,
+                        "currency": "SEK"
+                    }
+                },
+                "preview": [{
+                        "view": "front",
+                        "components": []
+                    }
+                ],
+                "features": [{
+                        "id": "edition",
+                        "name": "Edition",
+                        "options": [{
+                                "id": "black",
+                                "name": "Black edition",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b1.jpg"
+                            }, {
+                                "id": "silver",
+                                "name": "Silver edition",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b2.jpg"
+                            }, {
+                                "id": "polished",
+                                "name": "Polished edition",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b3.jpg"
+                            }, {
+                                "id": "white",
+                                "name": "White edition",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b4.jpg"
+                            }
+                        ]
+                    }, {
+                        "id": "back",
+                        "name": "Back",
+                        "options": [{
+                                "id": "low",
+                                "name": "Low back",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c1.jpg"
+                            }, {
+                                "id": "medium-high",
+                                "name": "Medium-High back",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c2.jpg"
+                            }
+                        ]
+                    }, {
+                        "id": "armrest",
+                        "name": "Armrest",
+                        "options": [{
+                                "id": "no_armrest",
+                                "name": "No Armrest",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e1.jpg"
+                            }, {
+                                "id": "with_armrest",
+                                "name": "With Armrest",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e2.jpg"
+                            }
+                        ]
+                    }, {
+                        "id": "headrest",
+                        "name": "Headrest",
+                        "options": [{
+                                "id": "no_headrest",
+                                "name": "No Headrest",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d1.jpg"
+                            }, {
+                                "id": "with_headrest",
+                                "name": "With Headrest",
+                                "image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d2.jpg"
+                            }
+                        ]
+                    }, {
+                        "id": "fabric",
+                        "name": "Fabric",
+                        "option_groups": [{
+                                "name": "Gabriel",
+                                "options": [{
+                                        "id": "Capture_00",
+                                        "name": "Capture 01",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_01.jpg"
+                                    }, {
+                                        "id": "Capture_01",
+                                        "name": "Capture 02",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_02.jpg"
+                                    }, {
+                                        "id": "Capture_02",
+                                        "name": "Capture 03",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_03.jpg"
+                                    }, {
+                                        "id": "Capture_03",
+                                        "name": "Capture 04",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_04.jpg"
+                                    }, {
+                                        "id": "Capture_04",
+                                        "name": "Capture 05",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_05.jpg"
+                                    }, {
+                                        "id": "Capture_05",
+                                        "name": "Captu06 05",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_05.jpg"
+                                    }, {
+                                        "id": "Capture_06",
+                                        "name": "Capture 07",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_07.jpg"
+                                    }, {
+                                        "id": "Capture_07",
+                                        "name": "Capture 08",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_08.jpg"
+                                    }, {
+                                        "id": "Capture_08",
+                                        "name": "Capture 09",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_09.jpg"
+                                    }, {
+                                        "id": "Capture_09",
+                                        "name": "Capture 10",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_10.jpg"
+                                    }, {
+                                        "id": "Capture_10",
+                                        "name": "Capture 11",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_11.jpg"
+                                    }, {
+                                        "id": "Capture_11",
+                                        "name": "Capture 12",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_12.jpg"
+                                    }, {
+                                        "id": "Capture_12",
+                                        "name": "Capture 13",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_13.jpg"
+                                    }, {
+                                        "id": "Capture_13",
+                                        "name": "Capture 14",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_14.jpg"
+                                    }, {
+                                        "id": "Capture_14",
+                                        "name": "Capture 15",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_15.jpg"
+                                    }, {
+                                        "id": "Capture_15",
+                                        "name": "Capture 16",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_16.jpg"
+                                    }, {
+                                        "id": "Capture_16",
+                                        "name": "Capture 17",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_17.jpg"
+                                    }, {
+                                        "id": "Capture_17",
+                                        "name": "Capture 18",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_18.jpg"
+                                    }, {
+                                        "id": "Capture_18",
+                                        "name": "Capture 19",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_19.jpg"
+                                    }, {
+                                        "id": "Capture_19",
+                                        "name": "Capture 20",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_20.jpg"
+                                    }, {
+                                        "id": "Capture_20",
+                                        "name": "Capture 21",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_21.jpg"
+                                    }, {
+                                        "id": "Capture_21",
+                                        "name": "Capture 22",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_22.jpg"
+                                    }, {
+                                        "id": "Capture_22",
+                                        "name": "Capture 23",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_23.jpg"
+                                    }, {
+                                        "id": "Capture_23",
+                                        "name": "Capture 24",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_24.jpg"
+                                    }, {
+                                        "id": "Capture_24",
+                                        "name": "Capture 25",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_25.jpg"
+                                    }, {
+                                        "id": "Capture_25",
+                                        "name": "Capture 26",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_26.jpg"
+                                    }, {
+                                        "id": "Capture_26",
+                                        "name": "Capture 27",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_27.jpg"
+                                    }, {
+                                        "id": "Capture_27",
+                                        "name": "Capture 28",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_28.jpg"
+                                    }, {
+                                        "id": "Capture_28",
+                                        "name": "Capture 29",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_29.jpg"
+                                    }, {
+                                        "id": "Capture_29",
+                                        "name": "Capture 30",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_30.jpg"
+                                    }, {
+                                        "id": "Capture_30",
+                                        "name": "Capture 31",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_31.jpg"
+                                    }, {
+                                        "id": "Capture_31",
+                                        "name": "Capture 32",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_32.jpg"
+                                    }, {
+                                        "id": "Capture_32",
+                                        "name": "Capture 33",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_33.jpg"
+                                    }, {
+                                        "id": "Capture_33",
+                                        "name": "Capture 34",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_34.jpg"
+                                    }, {
+                                        "id": "Capture_34",
+                                        "name": "Capture 35",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_35.jpg"
+                                    }, {
+                                        "id": "Capture_35",
+                                        "name": "Capture 36",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_36.jpg"
+                                    }, {
+                                        "id": "Capture_36",
+                                        "name": "Capture 37",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_37.jpg"
+                                    }, {
+                                        "id": "Capture_37",
+                                        "name": "Capture 38",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_38.jpg"
+                                    }, {
+                                        "id": "Capture_38",
+                                        "name": "Capture 39",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_39.jpg"
+                                    }, {
+                                        "id": "Capture_39",
+                                        "name": "Capture 40",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_40.jpg"
+                                    }, {
+                                        "id": "Capture_40",
+                                        "name": "Capture 41",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_41.jpg"
+                                    }, {
+                                        "id": "Capture_41",
+                                        "name": "Capture 42",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_42.jpg"
+                                    }, {
+                                        "id": "Capture_42",
+                                        "name": "Capture 43",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gabriel_fabric/Capture_43.jpg"
+                                    }
+                                ]
+                            }, {
+                                "name": "Gudbrandsdalen uldvarefabrik",
+                                "options": [{
+                                        "id": "5042-140-110",
+                                        "name": "Amdal 110",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-110.jpg"
+                                    }, {
+                                        "id": "5042-140-122",
+                                        "name": "Amdal 122",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-122.jpg"
+                                    }, {
+                                        "id": "5042-140-125",
+                                        "name": "Amdal 125",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-125.jpg"
+                                    }, {
+                                        "id": "5042-140-130",
+                                        "name": "Amdal 130",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-130.jpg"
+                                    }, {
+                                        "id": "5042-140-155",
+                                        "name": "Amdal 155",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-155.jpg"
+                                    }, {
+                                        "id": "5042-140-165",
+                                        "name": "Amdal 165",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-165.jpg"
+                                    }, {
+                                        "id": "5042-140-180",
+                                        "name": "Amdal 180",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-180.jpg"
+                                    }, {
+                                        "id": "5042-140-200",
+                                        "name": "Amdal 200",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-200.jpg"
+                                    }, {
+                                        "id": "5042-140-325",
+                                        "name": "Amdal 325",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-325.jpg"
+                                    }, {
+                                        "id": "5042-140-350",
+                                        "name": "Amdal 350",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-350.jpg"
+                                    }, {
+                                        "id": "5042-140-360",
+                                        "name": "Amdal 360",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-360.jpg"
+                                    }, {
+                                        "id": "5042-140-365",
+                                        "name": "Amdal 365",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-365.jpg"
+                                    }, {
+                                        "id": "5042-140-425",
+                                        "name": "Amdal 425",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-425.jpg"
+                                    }, {
+                                        "id": "5042-140-480",
+                                        "name": "Amdal 480",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-480.jpg"
+                                    }, {
+                                        "id": "5042-140-545",
+                                        "name": "Amdal 545",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-545.jpg"
+                                    }, {
+                                        "id": "5042-140-580",
+                                        "name": "Amdal 580",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-580.jpg"
+                                    }, {
+                                        "id": "5042-140-625",
+                                        "name": "Amdal 625",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-625.jpg"
+                                    }, {
+                                        "id": "5042-140-675",
+                                        "name": "Amdal 675",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-675.jpg"
+                                    }, {
+                                        "id": "5042-140-700",
+                                        "name": "Amdal 700",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-700.jpg"
+                                    }, {
+                                        "id": "5042-140-725",
+                                        "name": "Amdal 725",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-725.jpg"
+                                    }, {
+                                        "id": "5042-140-730",
+                                        "name": "Amdal 730",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-730.jpg"
+                                    }, {
+                                        "id": "5042-140-745",
+                                        "name": "Amdal 745",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-745.jpg"
+                                    }, {
+                                        "id": "5042-140-750",
+                                        "name": "Amdal 750",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-750.jpg"
+                                    }, {
+                                        "id": "5042-140-760",
+                                        "name": "Amdal 760",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-760.jpg"
+                                    }, {
+                                        "id": "5042-140-825",
+                                        "name": "Amdal 825",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-825.jpg"
+                                    }, {
+                                        "id": "5042-140-885",
+                                        "name": "Amdal 885",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-885.jpg"
+                                    }, {
+                                        "id": "5042-140-915",
+                                        "name": "Amdal 915",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/amdal-915.jpg"
+                                    }, {
+                                        "id": "5042-140-920",
+                                        "name": "Amdal 920",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/amdal-920.jpg"
+                                    }, {
+                                        "id": "5042-140-935",
+                                        "name": "Amdal 935",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-935.jpg"
+                                    }, {
+                                        "id": "5042-140-980",
+                                        "name": "Amdal 980",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Amdal/5042-140-980.jpg"
+                                    }, {
+                                        "id": "5095-140-110",
+                                        "name": "Bardal 110",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-110.jpg"
+                                    }, {
+                                        "id": "5095-140-160",
+                                        "name": "Bardal 160",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-160.jpg"
+                                    }, {
+                                        "id": "5095-140-170",
+                                        "name": "Bardal 170",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-170.jpg"
+                                    }, {
+                                        "id": "5095-140-190",
+                                        "name": "Bardal 190",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-190.jpg"
+                                    }, {
+                                        "id": "5095-140-220",
+                                        "name": "Bardal 220",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-220.jpg"
+                                    }, {
+                                        "id": "5095-140-310",
+                                        "name": "Bardal 310",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-310.jpg"
+                                    }, {
+                                        "id": "5095-140-340",
+                                        "name": "Bardal 340",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-340.jpg"
+                                    }, {
+                                        "id": "5095-140-380",
+                                        "name": "Bardal 380",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-380.jpg"
+                                    }, {
+                                        "id": "5095-140-420",
+                                        "name": "Bardal 420",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-420.jpg"
+                                    }, {
+                                        "id": "5095-140-440",
+                                        "name": "Bardal 440",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-440.jpg"
+                                    }, {
+                                        "id": "5095-140-460",
+                                        "name": "Bardal 460",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-460.jpg"
+                                    }, {
+                                        "id": "5095-140-480",
+                                        "name": "Bardal 480",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-480.jpg"
+                                    }, {
+                                        "id": "5095-140-620",
+                                        "name": "Bardal 620",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-620.jpg"
+                                    }, {
+                                        "id": "5095-140-630",
+                                        "name": "Bardal 630",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-630.jpg"
+                                    }, {
+                                        "id": "5095-140-660",
+                                        "name": "Bardal 660",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-660.jpg"
+                                    }, {
+                                        "id": "5095-140-670",
+                                        "name": "Bardal 670",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-670.jpg"
+                                    }, {
+                                        "id": "5095-140-680",
+                                        "name": "Bardal 680",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-680.jpg"
+                                    }, {
+                                        "id": "5095-140-710",
+                                        "name": "Bardal 710",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-710.jpg"
+                                    }, {
+                                        "id": "5095-140-720",
+                                        "name": "Bardal 720",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-720.jpg"
+                                    }, {
+                                        "id": "5095-140-730",
+                                        "name": "Bardal 730",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-730.jpg"
+                                    }, {
+                                        "id": "5095-140-740",
+                                        "name": "Bardal 740",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-740.jpg"
+                                    }, {
+                                        "id": "5095-140-750",
+                                        "name": "Bardal 750",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-750.jpg"
+                                    }, {
+                                        "id": "5095-140-770",
+                                        "name": "Bardal 770",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-770.jpg"
+                                    }, {
+                                        "id": "5095-140-780",
+                                        "name": "Bardal 780",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-780.jpg"
+                                    }, {
+                                        "id": "5095-140-810",
+                                        "name": "Bardal 810",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-810.jpg"
+                                    }, {
+                                        "id": "5095-140-830",
+                                        "name": "Bardal 830",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-830.jpg"
+                                    }, {
+                                        "id": "5095-140-860",
+                                        "name": "Bardal 860",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-860.jpg"
+                                    }, {
+                                        "id": "5095-140-890",
+                                        "name": "Bardal 890",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-890.jpg"
+                                    }, {
+                                        "id": "5095-140-970",
+                                        "name": "Bardal 970",
+                                        "image": "https://xeris-static-dev-bucket.s3-eu-west-1.amazonaws.com/vizwork/kinnarps/Gudbrandsdalen/Bardal/5095-140-970.jpg"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "camera_views": {
+                "Front": {
+                    "eye": {
+                        "x": -0.001,
+                        "y": 1.377,
+                        "z": -2.88
+                    },
+                    "target": {
+                        "x": 0.109,
+                        "y": -2.5,
+                        "z": 10.474
+                    },
+                    "fov": 35.0
+                },
+                "Iso": {
+                    "eye": {
+                        "x": -2.109,
+                        "y": 1.899,
+                        "z": -1.657
+                    },
+                    "target": {
+                        "x": 7.559,
+                        "y": -4.344,
+                        "z": 6.15
+                    },
+                    "fov": 35.0
+                },
+                "Left": {
+                    "eye": {
+                        "x": -3.026,
+                        "y": 0.798,
+                        "z": -0.001
+                    },
+                    "target": {
+                        "x": 10.825,
+                        "y": -0.424,
+                        "z": 0.255
+                    },
+                    "fov": 35.0
+                },
+                "Back": {
+                    "eye": {
+                        "x": -0.007,
+                        "y": 0.803,
+                        "z": 3.075
+                    },
+                    "target": {
+                        "x": 0.0,
+                        "y": -0.452,
+                        "z": -10.775
+                    },
+                    "fov": 35.0
+                },
+                "Right": {
+                    "eye": {
+                        "x": 3.016,
+                        "y": 0.837,
+                        "z": 0.002
+                    },
+                    "target": {
+                        "x": -10.817,
+                        "y": -0.572,
+                        "z": 0.218
+                    },
+                    "fov": 35.0
+                }
+            }
+        }
+    }
+}
