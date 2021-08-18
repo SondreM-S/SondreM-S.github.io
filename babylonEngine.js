@@ -440,8 +440,8 @@ window.addEventListener("DOMContentLoaded", function() {
                         }
                         camDivComp.appendChild(btn);
                     });
-
-
+                    // Apply the first view by clicking the first button in the div (probably front?)
+                    document.getElementById("CamViewButton").click();
 
                     // Set the current version of the model based on the current_model_json
                     setModelJson(current_model_json);
