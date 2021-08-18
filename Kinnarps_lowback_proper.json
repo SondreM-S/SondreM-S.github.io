@@ -1,0 +1,352 @@
+{
+	"feature_configuration": {
+		"base_price": {
+			"static": {
+				"value": 7350,
+				"currency": "SEK"
+			}
+		},
+		"preview": {
+			"features": [
+				{
+					"id": "headrest",
+					"name": "Headrest",
+					"options": [
+						{
+							"id": "withhead",
+							"name": "With Headrest",
+							"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d2.jpg"
+						},
+						{
+							"id": "nohead",
+							"name": "No Headrest",
+							"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d1.jpg"
+						}
+					]
+				},
+				{
+					"id": "armrest",
+					"name": "Armrest",
+					"options": [
+						{
+							"id": "witharm",
+							"name": "With Armrest",
+							"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e2.jpg"
+						},
+						{
+							"id": "noarm",
+							"name": "No Armrest",
+							"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e1.jpg"
+						}
+					]
+				},
+				{
+					"id": "fabric",
+					"name": "Fabric",
+					"options": [
+						{
+							"id": "capture01",
+							"name": "Capture 01",
+							"image": "Models/Materials/Fabrics/Capture_01.jpg"
+						},
+						{
+							"id": "capture04",
+							"name": "Capture 04",
+							"image": "Models/Materials/Fabrics/Capture_04.jpg"
+						},
+						{
+							"id": "capture05",
+							"name": "Capture 05",
+							"image": "Models/Materials/Fabrics/Capture_05.jpg"
+						}
+					]
+				}
+			],
+			"views": [
+				{
+					"id": "front",
+					"name": "Front",
+					"view": {
+						"eye": {
+							"x": -0.001,
+							"y": 1.377,
+							"z": -2.88
+						},
+						"target": {
+							"x": 0.109,
+							"y": -2.5,
+							"z": 10.474
+						}
+					}
+				},
+				{
+					"id": "iso",
+					"name": "Iso",
+					"view": {
+						"eye": {
+							"x": -2.109,
+							"y": 1.899,
+							"z": -1.657
+						},
+						"target": {
+							"x": 7.559,
+							"y": -4.344,
+							"z": 6.15
+						}
+					}
+				},
+				{
+					"id": "left",
+					"name": "Left",
+					"view": {
+						"eye": {
+							"x": -3.026,
+							"y": 0.798,
+							"z": -0.001
+						},
+						"target": {
+							"x": 10.825,
+							"y": -0.424,
+							"z": 0.255
+						}
+					}
+				},
+				{
+					"id": "back",
+					"name": "Back",
+					"view": {
+						"eye": {
+							"x": -0.007,
+							"y": 0.803,
+							"z": 3.075
+						},
+						"target": {
+							"x": 0.0,
+							"y": -0.452,
+							"z": -10.775
+						}
+					}
+				},
+				{
+					"id": "right",
+					"name": "Right",
+					"view": {
+						"eye": {
+							"x": 3.016,
+							"y": 0.837,
+							"z": 0.002
+						},
+						"target": {
+							"x": -10.817,
+							"y": -0.572,
+							"z": 0.218
+						}
+					}
+				}
+			],
+			"components": [
+				{
+					"id": "headrest",
+					"name": "Headrest",
+					"features": [
+						"fabric",
+						"headrest"
+					],
+					"variants": [
+						{
+							"options": [
+								"capture01",
+								"withhead"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
+						},
+						{
+							"options": [
+								"capture04",
+								"withhead"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
+						},
+						{
+							"options": [
+								"capture05",
+								"withhead"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
+						}
+					]
+				},
+				{
+					"id": "back",
+					"name": "Back",
+					"features": [
+						"fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"capture01"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
+						},
+						{
+							"options": [
+								"capture04"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
+						},
+						{
+							"options": [
+								"capture05"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_05.jpg"
+						}
+					]
+				},
+				{
+					"id": "seat",
+					"name": "Seat",
+					"features": [
+						"fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"capture01"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
+						},
+						{
+							"options": [
+								"capture04"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
+						},
+						{
+							"options": [
+								"capture05"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_05.jpg"
+						}
+					]
+				},
+				{
+					"id": "armrest",
+					"name": "Armrest",
+					"features": [
+						"armrest"
+					],
+					"variants": [
+						{
+							"options": [
+								"witharm"
+							]
+						}
+					]
+				}
+			]
+		},
+		"features": [
+			{
+				"id": "edition",
+				"name": "Edition",
+				"options": [
+					{
+						"id": "black",
+						"name": "Black edition",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b1.jpg"
+					},
+					{
+						"id": "silver",
+						"name": "Silver edition",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b2.jpg"
+					},
+					{
+						"id": "polished",
+						"name": "Polished edition",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b3.jpg"
+					},
+					{
+						"id": "white",
+						"name": "White edition",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/b4.jpg"
+					}
+				]
+			},
+			{
+				"id": "back",
+				"name": "Back",
+				"options": [
+					{
+						"id": "low",
+						"name": "Low back",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c1.jpg"
+					},
+					{
+						"id": "medium-high",
+						"name": "Medium-High back",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/c2.jpg"
+					}
+				]
+			},
+			{
+				"id": "armrest",
+				"name": "Armrest",
+				"options": [
+					{
+						"id": "no_armrest",
+						"name": "No Armrest",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e1.jpg"
+					},
+					{
+						"id": "with_armrest",
+						"name": "With Armrest",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/e2.jpg"
+					}
+				]
+			},
+			{
+				"id": "headrest",
+				"name": "Headrest",
+				"options": [
+					{
+						"id": "no_headrest",
+						"name": "No Headrest",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d1.jpg"
+					},
+					{
+						"id": "with_headrest",
+						"name": "With Headrest",
+						"image": "https://www.kinnarps.com/Products360/Configurator/Capella/thumbnails/d2.jpg"
+					}
+				]
+			},
+			{
+				"id": "fabric",
+				"name": "Fabric",
+				"option_groups": [
+					{
+						"name": "Gabriel",
+						"options": [
+							{
+								"id": "Capture_01",
+								"name": "Capture 01",
+								"image": "Models/Materials/Fabrics/Capture_01.jpg"
+							},
+							{
+								"id": "Capture_04",
+								"name": "Capture 04",
+								"image": "Models/Materials/Fabrics/Capture_04.jpg"
+							},
+							{
+								"id": "Capture_05",
+								"name": "Capture 05",
+								"image": "Models/Materials/Fabrics/Capture_05.jpg"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
