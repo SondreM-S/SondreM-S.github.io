@@ -15,22 +15,22 @@
 						{
 							"id": "capture01",
 							"name": "Capture 01",
-							"image": "Models/Materials/Fabrics/capture_01.jpg"
+							"image": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"id": "capture09",
 							"name": "Capture 09",
-							"image": "Models/Materials/Fabrics/capture_09.jpg"
+							"image": "Models/Materials/Fabrics/Capture_09.jpg"
 						},
 						{
 							"id": "capture13",
 							"name": "Capture 13",
-							"image": "Models/Materials/Fabrics/capture_13.jpg"
+							"image": "Models/Materials/Fabrics/Capture_13.jpg"
 						},
 						{
 							"id": "capture32",
 							"name": "Capture 32",
-							"image": "Models/Materials/Fabrics/capture_32.jpg"
+							"image": "Models/Materials/Fabrics/Capture_32.jpg"
 						}
 					]
 				}
@@ -129,25 +129,25 @@
 							"options": [
 								"capture01"
 							],
-							"texture": "Models/Materials/Fabrics/capture_01.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"options": [
 								"capture09"
 							],
-							"texture": "Models/Materials/Fabrics/capture_09.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_09.jpg"
 						},
 						{
 							"options": [
 								"capture13"
 							],
-							"texture": "Models/Materials/Fabrics/capture_13.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_13.jpg"
 						},
 						{
 							"options": [
 								"capture32"
 							],
-							"texture": "Models/Materials/Fabrics/capture_32.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_32.jpg"
 						}
 					]
 				}
@@ -238,17 +238,17 @@
 							{
 								"id": "Capture_01",
 								"name": "Capture 01",
-								"image": "Models/Materials/Fabrics/capture_01.jpg"
+								"image": "Models/Materials/Fabrics/Capture_01.jpg"
 							},
 							{
 								"id": "Capture_04",
 								"name": "Capture 04",
-								"image": "Models/Materials/Fabrics/capture_04.jpg"
+								"image": "Models/Materials/Fabrics/Capture_04.jpg"
 							},
 							{
 								"id": "Capture_05",
 								"name": "Capture 05",
-								"image": "Models/Materials/Fabrics/capture_05.jpg"
+								"image": "Models/Materials/Fabrics/Capture_05.jpg"
 							}
 						]
 					}

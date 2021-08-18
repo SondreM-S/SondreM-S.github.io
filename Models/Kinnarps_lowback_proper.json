@@ -47,17 +47,17 @@
 						{
 							"id": "capture01",
 							"name": "Capture 01",
-							"image": "Models/Materials/Fabrics/capture_01.jpg"
+							"image": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"id": "capture04",
 							"name": "Capture 04",
-							"image": "Models/Materials/Fabrics/capture_04.jpg"
+							"image": "Models/Materials/Fabrics/Capture_04.jpg"
 						},
 						{
 							"id": "capture05",
 							"name": "Capture 05",
-							"image": "Models/Materials/Fabrics/capture_05.jpg"
+							"image": "Models/Materials/Fabrics/Capture_05.jpg"
 						}
 					]
 				}
@@ -158,21 +158,21 @@
 								"capture01",
 								"withhead"
 							],
-							"texture": "Models/Materials/Fabrics/capture_01.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"options": [
 								"capture04",
 								"withhead"
 							],
-							"texture": "Models/Materials/Fabrics/capture_04.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
 						},
 						{
 							"options": [
 								"capture05",
 								"withhead"
 							],
-							"texture": "Models/Materials/Fabrics/capture_04.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
 						}
 					]
 				},
@@ -187,19 +187,19 @@
 							"options": [
 								"capture01"
 							],
-							"texture": "Models/Materials/Fabrics/capture_01.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"options": [
 								"capture04"
 							],
-							"texture": "Models/Materials/Fabrics/capture_04.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
 						},
 						{
 							"options": [
 								"capture05"
 							],
-							"texture": "Models/Materials/Fabrics/capture_05.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_05.jpg"
 						}
 					]
 				},
@@ -214,19 +214,19 @@
 							"options": [
 								"capture01"
 							],
-							"texture": "Models/Materials/Fabrics/capture_01.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_01.jpg"
 						},
 						{
 							"options": [
 								"capture04"
 							],
-							"texture": "Models/Materials/Fabrics/capture_04.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_04.jpg"
 						},
 						{
 							"options": [
 								"capture05"
 							],
-							"texture": "Models/Materials/Fabrics/capture_05.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_05.jpg"
 						}
 					]
 				},
@@ -331,17 +331,17 @@
 							{
 								"id": "Capture_01",
 								"name": "Capture 01",
-								"image": "Models/Materials/Fabrics/capture_01.jpg"
+								"image": "Models/Materials/Fabrics/Capture_01.jpg"
 							},
 							{
 								"id": "Capture_04",
 								"name": "Capture 04",
-								"image": "Models/Materials/Fabrics/capture_04.jpg"
+								"image": "Models/Materials/Fabrics/Capture_04.jpg"
 							},
 							{
 								"id": "Capture_05",
 								"name": "Capture 05",
-								"image": "Models/Materials/Fabrics/capture_05.jpg"
+								"image": "Models/Materials/Fabrics/Capture_05.jpg"
 							}
 						]
 					}
