@@ -328,6 +328,7 @@ window.addEventListener("DOMContentLoaded", function() {
                     // Generate buttons for toggling visibility of components based on group names
                     // Add component totoggleable list list
                     try{
+                        console.log("mesh_namet: "+mesh.name)
                         toggleable = mesh.name.split("_")[2].split(".")[0];
                         if (toggleable=="True"){
                             // Either create list to append to toggleGroup list or append to existing list
