@@ -331,11 +331,13 @@ window.addEventListener("DOMContentLoaded", function() {
                         toggleable = mesh.name.split("_")[2].split(".")[0];
                         if (toggleable=="True"){
                             // Either create list to append to toggleGroup list or append to existing list
+                            console.log("mesh.name: "+mesh.name)
                             gName = mesh.name.split("_")[0]; //Group (component) name, eg. Armrest, tablePlate etc...
                             // Check first component of all list in toggleGroups, if no match is found, create new list and append to toggleGroups
                             let found = 0; // Boolean to see if mesh group already added or not
                             toggleGroups.forEach(function(meshGroup){
                                 // For each meshGroup, check first element name and compare with mesh element name
+                                console.log("meshgroup[0].name: "+meshGroup[0].name)
                                 listGName = meshGroup[0].name.split("_")[0]; // First element name
                                 if (listGName == gName){
                                     found = 1; // Match found
@@ -364,9 +366,7 @@ window.addEventListener("DOMContentLoaded", function() {
                 // console.log(modelName.split(".")[0])
                 // console.log("/Models/"+modelName.split(".")[0]+"_proper.json")
                 // console.log("/Models/Kinnarps_lowback_proper.json")
-                try{
-                    const raw_json = ("/Models/"+modelName.split(".")[0]+"_proper.json")
-                }catch(err){console.log("Error raw_json\n"+err)}
+                const raw_json = ("/Models/"+modelName.split(".")[0]+"_proper.json")
                 // const raw_json = "/Models/Kinnarps_lowback_proper.json";
                 let request = new XMLHttpRequest();
                 request.responseType = 'json';
