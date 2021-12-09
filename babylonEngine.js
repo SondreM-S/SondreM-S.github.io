@@ -412,7 +412,6 @@ window.addEventListener("DOMContentLoaded", function() {
                                 // Clicked "With Headrest", from "Headrest", id: "withhead", in current_model_json set component variants options #X where X is the matching MJ feature id with cmj feature number
                                 // Step 1. Match component name with feature name in MJ
                                 this.handleButton(features[feature], features[feature]["options"][option], current_model_json) // Entire feature json for finding variables, and the specific choice
-                                console.log("updating model")
                                 this.updateModel(current_model_json, model_json)
                             };
                             
@@ -470,11 +469,11 @@ window.addEventListener("DOMContentLoaded", function() {
 
             Object.keys(cmj["components"]).every((component) => {
                 // return dictates if outer loop should continue or break. (if true, continue, if false break outer loop)
-                console.log("Fetching feature, option \n"+feature+"\n"+option)
                 return Object.keys(cmj["components"][component]["features"]).every((feature_n) => { // Run through inner feature loop untill match found or loop complete
-                    if (cmj["components"][component]["features"][feature_n] === feature["id"]){
+                    if (cmj["components"][component]["features"][feature_n].toLowerCase() === feature["id"].toLowerCase()){
                         // "feature" dictates the option location (number) to update from MJ
                         cmj["components"][component]["variants"]["options"][feature_n] = option["id"];
+
                         return true;
                     }else{
                         // console.log("no match yet, running loop again")
@@ -562,7 +561,6 @@ window.addEventListener("DOMContentLoaded", function() {
         };
 
         this.fillCMJ = (model_json) => { // Function for initial fill of current_model_json using the model_json
-            console.log("Filling current_model_json")
             const default_model_json = {"components": {}};
             // copy without reference from the model json to be the default settings for the chair
             default_model_json["components"] = JSON.parse(JSON.stringify(model_json))["feature_configuration"]["preview"]["components"];

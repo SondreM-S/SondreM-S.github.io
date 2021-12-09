@@ -1,0 +1,284 @@
+{
+	"feature_configuration": {
+		"base_price": {},
+		"preview": {
+			"components": [
+				{
+					"id": "FBFrame",
+					"name": "Fbframe",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				},
+				{
+					"id": "Back",
+					"name": "Back",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"capture32"
+							],
+							"texture": "Models/Materials/Fabrics/Capture_32.jpg"
+						}
+					]
+				},
+				{
+					"id": "Armrest",
+					"name": "Armrest",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				},
+				{
+					"id": "Seat",
+					"name": "Seat",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"id": "fabric",
+					"name": "Fabric",
+					"options": [
+						{
+							"id": "Nevotex-Wooly-1026_light_brown_36",
+							"name": "Nevotex-Wooly-1026_light_brown_36",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-1037_sand_16",
+							"name": "Nevotex-Wooly-1037_sand_16",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+							"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+							"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				}
+			],
+			"views": [
+				{
+					"id": "front",
+					"name": "Front",
+					"view": {
+						"eye": {
+							"x": 0.0,
+							"y": 1.21,
+							"z": -2.49
+						},
+						"target": {
+							"x": 0.01,
+							"y": 0.65,
+							"z": -0.71
+						}
+					}
+				},
+				{
+					"id": "iso",
+					"name": "Iso",
+					"view": {
+						"eye": {
+							"x": -2.05,
+							"y": 1.63,
+							"z": -1.07
+						},
+						"target": {
+							"x": -0.64,
+							"y": 0.69,
+							"z": -0.28
+						}
+					}
+				},
+				{
+					"id": "right",
+					"name": "Right",
+					"view": {
+						"eye": {
+							"x": -2.62,
+							"y": 0.93,
+							"z": -0.06
+						},
+						"target": {
+							"x": -0.8,
+							"y": 0.49,
+							"z": 0.01
+						}
+					}
+				},
+				{
+					"id": "back",
+					"name": "Back",
+					"view": {
+						"eye": {
+							"x": -0.01,
+							"y": 1.09,
+							"z": 2.59
+						},
+						"target": {
+							"x": -0.02,
+							"y": 0.55,
+							"z": 0.8
+						}
+					}
+				},
+				{
+					"id": "right",
+					"name": "Right",
+					"view": {
+						"eye": {
+							"x": 2.57,
+							"y": 0.96,
+							"z": 0.0
+						},
+						"target": {
+							"x": 0.75,
+							"y": 0.52,
+							"z": 0.02
+						}
+					}
+				}
+			]
+		},
+		"features": [
+			{
+				"id": "fabric",
+				"name": "Fabric",
+				"option_groups": [
+					{
+						"name": "Gabriel",
+						"options": [
+							{
+								"id": "Nevotex-Wooly-1026_light_brown_36",
+								"name": "Nevotex-Wooly-1026_light_brown_36",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-1037_sand_16",
+								"name": "Nevotex-Wooly-1037_sand_16",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+								"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+								"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

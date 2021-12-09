@@ -32,7 +32,7 @@
 							"options": [
 								"Nevotex-Wooly-Plus_2256_Ivory_melange"
 							],
-							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
 						}
 					]
 				},
@@ -63,9 +63,9 @@
 						},
 						{
 							"options": [
-								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+								"capture32"
 							],
-							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							"texture": "Models/Materials/Fabrics/Capture_32.jpg"
 						}
 					]
 				},
@@ -98,7 +98,7 @@
 							"options": [
 								"Nevotex-Wooly-Plus_2256_Ivory_melange"
 							],
-							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
 						}
 					]
 				},
@@ -131,7 +131,7 @@
 							"options": [
 								"Nevotex-Wooly-Plus_2256_Ivory_melange"
 							],
-							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
 						}
 					]
 				}
@@ -251,26 +251,31 @@
 			{
 				"id": "fabric",
 				"name": "Fabric",
-				"options": [
+				"option_groups": [
 					{
-						"id": "Nevotex-Wooly-1026_light_brown_36",
-						"name": "Nevotex-Wooly-1026_light_brown_36",
-						"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
-					},
-					{
-						"id": "Nevotex-Wooly-1037_sand_16",
-						"name": "Nevotex-Wooly-1037_sand_16",
-						"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
-					},
-					{
-						"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
-						"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
-						"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
-					},
-					{
-						"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
-						"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
-						"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						"name": "Gabriel",
+						"options": [
+							{
+								"id": "Nevotex-Wooly-1026_light_brown_36",
+								"name": "Nevotex-Wooly-1026_light_brown_36",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-1037_sand_16",
+								"name": "Nevotex-Wooly-1037_sand_16",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+								"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+							},
+							{
+								"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+								"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+								"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+							}
+						]
 					}
 				]
 			}
