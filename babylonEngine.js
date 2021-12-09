@@ -327,29 +327,33 @@ window.addEventListener("DOMContentLoaded", function() {
                     
                     // Generate buttons for toggling visibility of components based on group names
                     // Add component totoggleable list list
-                    toggleable = mesh.name.split("_")[2].split(".")[0];
-                    if (toggleable=="True"){
-                        // Either create list to append to toggleGroup list or append to existing list
-                        gName = mesh.name.split("_")[0]; //Group (component) name, eg. Armrest, tablePlate etc...
-                        // Check first component of all list in toggleGroups, if no match is found, create new list and append to toggleGroups
-                        let found = 0; // Boolean to see if mesh group already added or not
-                        toggleGroups.forEach(function(meshGroup){
-                            // For each meshGroup, check first element name and compare with mesh element name
-                            listGName = meshGroup[0].name.split("_")[0]; // First element name
-                            if (listGName == gName){
-                                found = 1; // Match found
-                                meshGroup.push(mesh);
+                    try{
+                        toggleable = mesh.name.split("_")[2].split(".")[0];
+                        if (toggleable=="True"){
+                            // Either create list to append to toggleGroup list or append to existing list
+                            gName = mesh.name.split("_")[0]; //Group (component) name, eg. Armrest, tablePlate etc...
+                            // Check first component of all list in toggleGroups, if no match is found, create new list and append to toggleGroups
+                            let found = 0; // Boolean to see if mesh group already added or not
+                            toggleGroups.forEach(function(meshGroup){
+                                // For each meshGroup, check first element name and compare with mesh element name
+                                listGName = meshGroup[0].name.split("_")[0]; // First element name
+                                if (listGName == gName){
+                                    found = 1; // Match found
+                                    meshGroup.push(mesh);
+                                }
+                            })
+                            if (found == 0){ // No group found
+                                tempArr = [];
+                                tempArr.push(mesh);
+                                toggleGroups.push(tempArr);
                             }
-                        })
-                        if (found == 0){ // No group found
-                            tempArr = [];
-                            tempArr.push(mesh);
-                            toggleGroups.push(tempArr);
+                        }else if(toggleable=="False"){
+                            // Component not toggleable, do nothing
+                        }else{
+                            // Found error in Sketchup export, no visibility toggle found
                         }
-                    }else if(toggleable=="False"){
-                        // Component not toggleable, do nothing
-                    }else{
-                        // Found error in Sketchup export, no visibility toggle found
+                    }catch(err){
+                        console.log("Error split material\n"+err)
                     }
                 })
             
@@ -360,7 +364,9 @@ window.addEventListener("DOMContentLoaded", function() {
                 // console.log(modelName.split(".")[0])
                 // console.log("/Models/"+modelName.split(".")[0]+"_proper.json")
                 // console.log("/Models/Kinnarps_lowback_proper.json")
-                const raw_json = ("/Models/"+modelName.split(".")[0]+"_proper.json")
+                try{
+                    const raw_json = ("/Models/"+modelName.split(".")[0]+"_proper.json")
+                }catch(err){console.log("Error raw_json\n"+err)}
                 // const raw_json = "/Models/Kinnarps_lowback_proper.json";
                 let request = new XMLHttpRequest();
                 request.responseType = 'json';
