@@ -1,1 +1,543 @@
-{"feature_configuration":{"base_price":{},"preview":{"components":[{"id":"FBFrame","name":"Fbframe","features":["Fabric"],"variants":[{"options":["Nevotex-Wooly-1026_light_brown_36","Nevotex-Wooly-1037_sand_16","Nevotex-Wooly-Plus_2016_B_Dark_terracotta","Nevotex-Wooly-Plus_2256_Ivory_melange"],"texture":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"}]},{"id":"Back","name":"Back","features":["Fabric"],"variants":[{"options":["Nevotex-Wooly-1026_light_brown_36","Nevotex-Wooly-1037_sand_16","Nevotex-Wooly-Plus_2016_B_Dark_terracotta","Nevotex-Wooly-Plus_2256_Ivory_melange"],"texture":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"}]},{"id":"Armrest","name":"Armrest","features":["Fabric"],"variants":[{"options":["Nevotex-Wooly-1026_light_brown_36","Nevotex-Wooly-1037_sand_16","Nevotex-Wooly-Plus_2016_B_Dark_terracotta","Nevotex-Wooly-Plus_2256_Ivory_melange"],"texture":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"}]},{"id":"Legs","name":"Legs","features":["Velg treverk og farge"],"variants":[{"options":["BABJ","BABB","BAEIK","BAEIKB","BABWL","BABSCL","BAESCL","UTEN"],"texture":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABJ.jpg"}]},{"id":"Seat","name":"Seat","features":["Fabric"],"variants":[{"options":["Nevotex-Wooly-1026_light_brown_36","Nevotex-Wooly-1037_sand_16","Nevotex-Wooly-Plus_2016_B_Dark_terracotta","Nevotex-Wooly-Plus_2256_Ivory_melange"],"texture":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"}]}],"features":[{"id":"BACFI","name":"Avtagbart setetrekk og urinduk","options":[{"id":"UTEN","name":"Uten"},{"id":"BANRC","name":"Ikke avtagbart trekk"},{"id":"BAWI","name":"Avtagbart setetrekk og urinduk per sete"},{"id":"BARC","name":"Avtagbart trekk","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BARC.jpg"}]},{"id":"BAWCOMP","name":"Velg treverk og farge","options":[{"id":"BABJ","name":"Bjørk lyslakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABJ.jpg"},{"id":"BABB","name":"Bjørk sort lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABB.jpg"},{"id":"BAEIK","name":"Eik lyslakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIK.jpg"},{"id":"BAEIKB","name":"Eik sort lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIKB.jpg"},{"id":"BABWL","name":"Bjørk hvitlakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABWL.jpg"},{"id":"BABSCL","name":"Bjørk spesial lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABSCL.jpg"},{"id":"BAESCL","name":"Eik spesial lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAESCL.jpg"},{"id":"UTEN","name":"Uten"}]},{"id":"BACFIB","name":"Avtagbart ryggtrekk og urinduk","options":[{"id":"UTEN","name":"Uten"},{"id":"BAWIB","name":"Urinduk rygg per sete"}]},{"id":"BAPRAR","name":"Forberedd for armlenebeskyttere","options":[{"id":"NEI","name":"NEI"},{"id":"BAPREPARED","name":"Forberedt for armleneputer topp"},{"id":"BAPPREPARM","name":"Forberedt for armlenebeskyttere"},{"id":"UTEN","name":"Uten"}]},{"id":"BAWH","name":"Velg setehøyde","options":[{"id":"UTEN","name":"Uten"},{"id":"BASPSEAT","name":"Spesial sittehøyde inntil 5 cm"}]},{"id":"BAEL","name":"Miljøetikett","options":[{"id":"UTEN","name":"Uten"},{"id":"BASW","name":"Svane merket"}]},{"id":"fabric","name":"Fabric","options":[{"id":"Nevotex-Wooly-1026_light_brown_36","name":"Nevotex-Wooly-1026_light_brown_36","image":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"},{"id":"Nevotex-Wooly-1037_sand_16","name":"Nevotex-Wooly-1037_sand_16","image":"Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"},{"id":"Nevotex-Wooly-Plus_2016_B_Dark_terracotta","name":"Nevotex-Wooly-Plus_2016_B_Dark_terracotta","image":"Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"},{"id":"Nevotex-Wooly-Plus_2256_Ivory_melange","name":"Nevotex-Wooly-Plus_2256_Ivory_melange","image":"Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"}]}],"views":[{"id":"front","name":"Front","view":{"eye":{"x":0.01,"y":1.35,"z":-2.04},"target":{"x":0.07,"y":0.57,"z":-0.34}}},{"id":"iso","name":"Iso","view":{"eye":{"x":-1.91,"y":1.59,"z":-1.27},"target":{"x":-0.57,"y":0.7,"z":-0.32}}},{"id":"right","name":"Right","view":{"eye":{"x":-2.4,"y":0.98,"z":0.0},"target":{"x":-0.58,"y":0.52,"z":0.0}}},{"id":"back","name":"Back","view":{"eye":{"x":-0.01,"y":1.28,"z":2.29},"target":{"x":-0.01,"y":0.59,"z":0.55}}},{"id":"left","name":"Left","view":{"eye":{"x":2.37,"y":0.95,"z":0.05},"target":{"x":0.55,"y":0.51,"z":0.03}}}]},"features":[{"id":"BACFI","name":"Avtagbart setetrekk og urinduk","options":[{"id":"UTEN","name":"Uten"},{"id":"BANRC","name":"Ikke avtagbart trekk"},{"id":"BAWI","name":"Avtagbart setetrekk og urinduk per sete"},{"id":"BARC","name":"Avtagbart trekk","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BARC.jpg"}]},{"id":"BAWCOMP","name":"Velg treverk og farge","options":[{"id":"BABJ","name":"Bjørk lyslakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABJ.jpg"},{"id":"BABB","name":"Bjørk sort lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABB.jpg"},{"id":"BAEIK","name":"Eik lyslakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIK.jpg"},{"id":"BAEIKB","name":"Eik sort lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIKB.jpg"},{"id":"BABWL","name":"Bjørk hvitlakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABWL.jpg"},{"id":"BABSCL","name":"Bjørk spesial lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABSCL.jpg"},{"id":"BAESCL","name":"Eik spesial lakkert","image":"https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAESCL.jpg"},{"id":"UTEN","name":"Uten"}]},{"id":"BACFIB","name":"Avtagbart ryggtrekk og urinduk","options":[{"id":"UTEN","name":"Uten"},{"id":"BAWIB","name":"Urinduk rygg per sete"}]},{"id":"BAPRAR","name":"Forberedd for armlenebeskyttere","options":[{"id":"NEI","name":"NEI"},{"id":"BAPREPARED","name":"Forberedt for armleneputer topp"},{"id":"BAPPREPARM","name":"Forberedt for armlenebeskyttere"},{"id":"UTEN","name":"Uten"}]},{"id":"BAWH","name":"Velg setehøyde","options":[{"id":"UTEN","name":"Uten"},{"id":"BASPSEAT","name":"Spesial sittehøyde inntil 5 cm"}]},{"id":"BAEL","name":"Miljøetikett","options":[{"id":"UTEN","name":"Uten"},{"id":"BASW","name":"Svane merket"}]},{"id":"fabric","name":"Fabric","options":[{"id":"Nevotex-Wooly-1026_light_brown_36","name":"Nevotex-Wooly-1026_light_brown_36","image":"Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"},{"id":"Nevotex-Wooly-1037_sand_16","name":"Nevotex-Wooly-1037_sand_16","image":"Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"},{"id":"Nevotex-Wooly-Plus_2016_B_Dark_terracotta","name":"Nevotex-Wooly-Plus_2016_B_Dark_terracotta","image":"Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"},{"id":"Nevotex-Wooly-Plus_2256_Ivory_melange","name":"Nevotex-Wooly-Plus_2256_Ivory_melange","image":"Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"}]}]}}
+{
+	"feature_configuration": {
+		"base_price": {},
+		"preview": {
+			"components": [
+				{
+					"id": "FBFrame",
+					"name": "Fbframe",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				},
+				{
+					"id": "Back",
+					"name": "Back",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				},
+				{
+					"id": "Armrest",
+					"name": "Armrest",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				},
+				{
+					"id": "Seat",
+					"name": "Seat",
+					"features": [
+						"Fabric"
+					],
+					"variants": [
+						{
+							"options": [
+								"Nevotex-Wooly-1026_light_brown_36"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-1037_sand_16"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2016_B_Dark_terracotta"
+							],
+							"texture": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"options": [
+								"Nevotex-Wooly-Plus_2256_Ivory_melange"
+							],
+							"texture": "Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				}
+			],
+			"features": [
+				{
+					"id": "BACFI",
+					"name": "Avtagbart setetrekk og urinduk",
+					"options": [
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						},
+						{
+							"id": "BANRC",
+							"name": "Ikke avtagbart trekk"
+						},
+						{
+							"id": "BAWI",
+							"name": "Avtagbart setetrekk og urinduk per sete"
+						},
+						{
+							"id": "BARC",
+							"name": "Avtagbart trekk",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BARC.jpg"
+						}
+					]
+				},
+				{
+					"id": "BAWCOMP",
+					"name": "Velg treverk og farge",
+					"options": [
+						{
+							"id": "BABJ",
+							"name": "Bjørk lyslakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABJ.jpg"
+						},
+						{
+							"id": "BABB",
+							"name": "Bjørk sort lakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABB.jpg"
+						},
+						{
+							"id": "BAEIK",
+							"name": "Eik lyslakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIK.jpg"
+						},
+						{
+							"id": "BAEIKB",
+							"name": "Eik sort lakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIKB.jpg"
+						},
+						{
+							"id": "BABWL",
+							"name": "Bjørk hvitlakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABWL.jpg"
+						},
+						{
+							"id": "BABSCL",
+							"name": "Bjørk spesial lakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABSCL.jpg"
+						},
+						{
+							"id": "BAESCL",
+							"name": "Eik spesial lakkert",
+							"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAESCL.jpg"
+						},
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						}
+					]
+				},
+				{
+					"id": "BACFIB",
+					"name": "Avtagbart ryggtrekk og urinduk",
+					"options": [
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						},
+						{
+							"id": "BAWIB",
+							"name": "Urinduk rygg per sete"
+						}
+					]
+				},
+				{
+					"id": "BAPRAR",
+					"name": "Forberedd for armlenebeskyttere",
+					"options": [
+						{
+							"id": "NEI",
+							"name": "NEI"
+						},
+						{
+							"id": "BAPREPARED",
+							"name": "Forberedt for armleneputer topp"
+						},
+						{
+							"id": "BAPPREPARM",
+							"name": "Forberedt for armlenebeskyttere"
+						},
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						}
+					]
+				},
+				{
+					"id": "BAWH",
+					"name": "Velg setehøyde",
+					"options": [
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						},
+						{
+							"id": "BASPSEAT",
+							"name": "Spesial sittehøyde inntil 5 cm"
+						}
+					]
+				},
+				{
+					"id": "BAEL",
+					"name": "Miljøetikett",
+					"options": [
+						{
+							"id": "UTEN",
+							"name": "Uten"
+						},
+						{
+							"id": "BASW",
+							"name": "Svane merket"
+						}
+					]
+				},
+				{
+					"id": "fabric",
+					"name": "Fabric",
+					"options": [
+						{
+							"id": "Nevotex-Wooly-1026_light_brown_36",
+							"name": "Nevotex-Wooly-1026_light_brown_36",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-1037_sand_16",
+							"name": "Nevotex-Wooly-1037_sand_16",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+							"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+						},
+						{
+							"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+							"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+							"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+						}
+					]
+				}
+			],
+			"views": [
+				{
+					"id": "front",
+					"name": "Front",
+					"view": {
+						"eye": {
+							"x": 0.01,
+							"y": 1.35,
+							"z": -2.04
+						},
+						"target": {
+							"x": 0.07,
+							"y": 0.57,
+							"z": -0.34
+						}
+					}
+				},
+				{
+					"id": "iso",
+					"name": "Iso",
+					"view": {
+						"eye": {
+							"x": -1.91,
+							"y": 1.59,
+							"z": -1.27
+						},
+						"target": {
+							"x": -0.57,
+							"y": 0.7,
+							"z": -0.32
+						}
+					}
+				},
+				{
+					"id": "right",
+					"name": "Right",
+					"view": {
+						"eye": {
+							"x": -2.4,
+							"y": 0.98,
+							"z": 0.0
+						},
+						"target": {
+							"x": -0.58,
+							"y": 0.52,
+							"z": 0.0
+						}
+					}
+				},
+				{
+					"id": "back",
+					"name": "Back",
+					"view": {
+						"eye": {
+							"x": -0.01,
+							"y": 1.28,
+							"z": 2.29
+						},
+						"target": {
+							"x": -0.01,
+							"y": 0.59,
+							"z": 0.55
+						}
+					}
+				},
+				{
+					"id": "left",
+					"name": "Left",
+					"view": {
+						"eye": {
+							"x": 2.37,
+							"y": 0.95,
+							"z": 0.05
+						},
+						"target": {
+							"x": 0.55,
+							"y": 0.51,
+							"z": 0.03
+						}
+					}
+				}
+			]
+		},
+		"features": [
+			{
+				"id": "BACFI",
+				"name": "Avtagbart setetrekk og urinduk",
+				"options": [
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					},
+					{
+						"id": "BANRC",
+						"name": "Ikke avtagbart trekk"
+					},
+					{
+						"id": "BAWI",
+						"name": "Avtagbart setetrekk og urinduk per sete"
+					},
+					{
+						"id": "BARC",
+						"name": "Avtagbart trekk",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BARC.jpg"
+					}
+				]
+			},
+			{
+				"id": "BAWCOMP",
+				"name": "Velg treverk og farge",
+				"options": [
+					{
+						"id": "BABJ",
+						"name": "Bjørk lyslakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABJ.jpg"
+					},
+					{
+						"id": "BABB",
+						"name": "Bjørk sort lakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABB.jpg"
+					},
+					{
+						"id": "BAEIK",
+						"name": "Eik lyslakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIK.jpg"
+					},
+					{
+						"id": "BAEIKB",
+						"name": "Eik sort lakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAEIKB.jpg"
+					},
+					{
+						"id": "BABWL",
+						"name": "Bjørk hvitlakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABWL.jpg"
+					},
+					{
+						"id": "BABSCL",
+						"name": "Bjørk spesial lakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BABSCL.jpg"
+					},
+					{
+						"id": "BAESCL",
+						"name": "Eik spesial lakkert",
+						"image": "https://xtrade-demo-upload-bucket.s3-eu-west-1.amazonaws.com/media-helland/Product_pictures/BAESCL.jpg"
+					},
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					}
+				]
+			},
+			{
+				"id": "BACFIB",
+				"name": "Avtagbart ryggtrekk og urinduk",
+				"options": [
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					},
+					{
+						"id": "BAWIB",
+						"name": "Urinduk rygg per sete"
+					}
+				]
+			},
+			{
+				"id": "BAPRAR",
+				"name": "Forberedd for armlenebeskyttere",
+				"options": [
+					{
+						"id": "NEI",
+						"name": "NEI"
+					},
+					{
+						"id": "BAPREPARED",
+						"name": "Forberedt for armleneputer topp"
+					},
+					{
+						"id": "BAPPREPARM",
+						"name": "Forberedt for armlenebeskyttere"
+					},
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					}
+				]
+			},
+			{
+				"id": "BAWH",
+				"name": "Velg setehøyde",
+				"options": [
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					},
+					{
+						"id": "BASPSEAT",
+						"name": "Spesial sittehøyde inntil 5 cm"
+					}
+				]
+			},
+			{
+				"id": "BAEL",
+				"name": "Miljøetikett",
+				"options": [
+					{
+						"id": "UTEN",
+						"name": "Uten"
+					},
+					{
+						"id": "BASW",
+						"name": "Svane merket"
+					}
+				]
+			},
+			{
+				"id": "fabric",
+				"name": "Fabric",
+				"options": [
+					{
+						"id": "Nevotex-Wooly-1026_light_brown_36",
+						"name": "Nevotex-Wooly-1026_light_brown_36",
+						"image": "Models/Materials/Fabrics/Nevotex-Wooly-1026_light_brown_36.jpg"
+					},
+					{
+						"id": "Nevotex-Wooly-1037_sand_16",
+						"name": "Nevotex-Wooly-1037_sand_16",
+						"image": "Models/Materials/Fabrics/Nevotex-Wooly-1037_sand_16.jpg"
+					},
+					{
+						"id": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+						"name": "Nevotex-Wooly-Plus_2016_B_Dark_terracotta",
+						"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2016_B_Dark_terracotta.jpg"
+					},
+					{
+						"id": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+						"name": "Nevotex-Wooly-Plus_2256_Ivory_melange",
+						"image": "Models/Materials/Fabrics/Nevotex-Wooly-Plus_2256_Ivory_melange.jpg"
+					}
+				]
+			}
+		]
+	}
+}
