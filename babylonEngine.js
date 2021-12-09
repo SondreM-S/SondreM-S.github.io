@@ -302,22 +302,26 @@ window.addEventListener("DOMContentLoaded", function() {
                     
                     if (mesh.material.name != null){                   
                         // Reads the name of each part and changes the material if a fabric is found
-                        if(mesh.name.split("_")[1] == "Metal"){
-                            // Metal found, add shiny metal effect, else remove all shine
-                            mesh.material.metallic = 0.8;
-                            mesh.material.roughness = 0.4;
-                        }else if(mesh.name.split("_")[1] == "Fabric"){
-                            // Fabric found
-                            mesh.material.metallic = 0.1;
-                            mesh.material.roughness = 1;
-                        }
-                        else{
-                            try{
-                                mesh.material.metallic = null;
-                                mesh.material.roughness = 0.5;
-                            }catch(err){
-                                console.log("Error in material set: \n"+err)
+                        try{
+                            if(mesh.name.split("_")[1] == "Metal"){
+                                // Metal found, add shiny metal effect, else remove all shine
+                                mesh.material.metallic = 0.8;
+                                mesh.material.roughness = 0.4;
+                            }else if(mesh.name.split("_")[1] == "Fabric"){
+                                // Fabric found
+                                mesh.material.metallic = 0.1;
+                                mesh.material.roughness = 1;
                             }
+                            else{
+                                try{
+                                    mesh.material.metallic = null;
+                                    mesh.material.roughness = 0.5;
+                                }catch(err){
+                                    console.log("Error in material set: \n"+err)
+                                }
+                            }
+                        }catch(err){
+                            console.log("Error split material\n"+err)
                         }
                     }
                     
